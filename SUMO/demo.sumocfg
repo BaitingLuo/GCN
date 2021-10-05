@@ -1,0 +1,26 @@
+
+<configuration>
+    <input>
+        <net-file value="net.net.xml"/>
+		<route-files value="rou.rou.xml"/>
+        <step-length value="0.1"/>
+        <additional-files value="demo.add.xml"/>
+		<!--additional-files value="demo.add.xml"/>
+        <lateral-resolution value="0.5"/>
+        <step-length value="1"/>
+        <edge-files value="quickstart.edg.xml"/>
+        <connection-files value="quickstart.con.xml"/>
+        <type-files value="quickstart.typ.xml"/-->
+    </input>
+
+    <!--output>
+        <output-file value="quickstart.net.xml"/>
+    </output-->
+
+
+
+    <report>
+        <verbose value="true"/>
+    </report>
+
+</configuration>

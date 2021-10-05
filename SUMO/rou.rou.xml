@@ -1,0 +1,1209 @@
+<routes>
+        <vType id="strong" accel="4" decel="4.5" sigma="0.5" length="5" minGap="10" maxSpeed="31.38" guiShape="passenger"/>
+        <vType id="weak" accel="4" decel="4.5" sigma="0.5" length="5" minGap="10" maxSpeed="31.38" guiShape="passenger"/>
+        <vType id="malicious" accel="4" decel="4.5" sigma="0.5" length="5" minGap="10" maxSpeed="31.38" guiShape="passenger"/>
+        <vType id="sybil" accel="4" decel="4.5" sigma="0.5" length="5" minGap="10" maxSpeed="31.38" guiShape="passenger"/>
+        <route id="main_in_main_out" edges="A1 A2 A3 A4 A5 A6 A7 A8 A9 A10" />
+
+        <route id="main_in_side_out" edges="A1 A2 A3 A4 A5 A6 A7 A8 A9 A10" />
+<vehicle id="mali0" type="malicious" route="main_in_main_out" depart="0.000000" departSpeed="0" color="204, 153, 255" departLane="1" tau = "2"/>
+<vehicle id="MIMO6" type="strong" route="main_in_main_out" depart="5.000000" departSpeed="0" color="1,0,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO7" type="strong" route="main_in_main_out" depart="10.000000" departSpeed="0" color="1,0,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO8" type="strong" route="main_in_main_out" depart="15.000000" departSpeed="0" color="1,0,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO9" type="weak" route="main_in_main_out" depart="20.000000" departSpeed="0" color="1,1,0" departLane="1" tau = "2"/>
+<vehicle id="mali10" type="malicious" route="main_in_main_out" depart="25.000000" departSpeed="0" color="204, 153, 255" departLane="0" tau = "2"/>
+<vehicle id="mali16" type="malicious" route="main_in_main_out" depart="30.000000" departSpeed="0" color="204, 153, 255" departLane="0" tau = "2"/>
+<vehicle id="MIMO22" type="strong" route="main_in_main_out" depart="35.000000" departSpeed="0" color="1,0,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO23" type="weak" route="main_in_main_out" depart="40.000000" departSpeed="0" color="1,1,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO24" type="strong" route="main_in_main_out" depart="45.000000" departSpeed="0" color="1,0,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO25" type="strong" route="main_in_main_out" depart="50.000000" departSpeed="0" color="1,0,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO26" type="strong" route="main_in_main_out" depart="55.000000" departSpeed="0" color="1,0,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO27" type="weak" route="main_in_main_out" depart="60.000000" departSpeed="0" color="1,1,0" departLane="0" tau = "2"/>
+<vehicle id="mali28" type="malicious" route="main_in_main_out" depart="65.000000" departSpeed="0" color="204, 153, 255" departLane="0" tau = "2"/>
+<vehicle id="MIMO34" type="weak" route="main_in_main_out" depart="70.000000" departSpeed="0" color="1,1,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO35" type="strong" route="main_in_main_out" depart="75.000000" departSpeed="0" color="1,0,0" departLane="1" tau = "2"/>
+<vehicle id="mali36" type="malicious" route="main_in_main_out" depart="80.000000" departSpeed="0" color="204, 153, 255" departLane="1" tau = "2"/>
+<vehicle id="MIMO42" type="weak" route="main_in_main_out" depart="85.000000" departSpeed="0" color="1,1,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO43" type="weak" route="main_in_main_out" depart="90.000000" departSpeed="0" color="1,1,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO44" type="weak" route="main_in_main_out" depart="95.000000" departSpeed="0" color="1,1,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO45" type="strong" route="main_in_main_out" depart="100.000000" departSpeed="0" color="1,0,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO46" type="weak" route="main_in_main_out" depart="105.000000" departSpeed="0" color="1,1,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO47" type="weak" route="main_in_main_out" depart="110.000000" departSpeed="0" color="1,1,0" departLane="1" tau = "2"/>
+<vehicle id="mali48" type="malicious" route="main_in_main_out" depart="115.000000" departSpeed="0" color="204, 153, 255" departLane="0" tau = "2"/>
+<vehicle id="MIMO54" type="weak" route="main_in_main_out" depart="120.000000" departSpeed="0" color="1,1,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO55" type="weak" route="main_in_main_out" depart="125.000000" departSpeed="0" color="1,1,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO56" type="strong" route="main_in_main_out" depart="130.000000" departSpeed="0" color="1,0,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO57" type="weak" route="main_in_main_out" depart="135.000000" departSpeed="0" color="1,1,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO58" type="strong" route="main_in_main_out" depart="140.000000" departSpeed="0" color="1,0,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO59" type="strong" route="main_in_main_out" depart="145.000000" departSpeed="0" color="1,0,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO60" type="strong" route="main_in_main_out" depart="150.000000" departSpeed="0" color="1,0,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO61" type="weak" route="main_in_main_out" depart="155.000000" departSpeed="0" color="1,1,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO62" type="weak" route="main_in_main_out" depart="160.000000" departSpeed="0" color="1,1,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO63" type="weak" route="main_in_main_out" depart="165.000000" departSpeed="0" color="1,1,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO64" type="weak" route="main_in_main_out" depart="170.000000" departSpeed="0" color="1,1,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO65" type="weak" route="main_in_main_out" depart="175.000000" departSpeed="0" color="1,1,0" departLane="1" tau = "2"/>
+<vehicle id="mali66" type="malicious" route="main_in_main_out" depart="180.000000" departSpeed="0" color="204, 153, 255" departLane="1" tau = "2"/>
+<vehicle id="mali72" type="malicious" route="main_in_main_out" depart="185.000000" departSpeed="0" color="204, 153, 255" departLane="0" tau = "2"/>
+<vehicle id="MIMO78" type="strong" route="main_in_main_out" depart="190.000000" departSpeed="0" color="1,0,0" departLane="1" tau = "2"/>
+<vehicle id="mali79" type="malicious" route="main_in_main_out" depart="195.000000" departSpeed="0" color="204, 153, 255" departLane="0" tau = "2"/>
+<vehicle id="mali85" type="malicious" route="main_in_main_out" depart="200.000000" departSpeed="0" color="204, 153, 255" departLane="1" tau = "2"/>
+<vehicle id="MIMO91" type="strong" route="main_in_main_out" depart="205.000000" departSpeed="0" color="1,0,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO92" type="weak" route="main_in_main_out" depart="210.000000" departSpeed="0" color="1,1,0" departLane="0" tau = "2"/>
+<vehicle id="mali93" type="malicious" route="main_in_main_out" depart="215.000000" departSpeed="0" color="204, 153, 255" departLane="0" tau = "2"/>
+<vehicle id="MIMO99" type="weak" route="main_in_main_out" depart="220.000000" departSpeed="0" color="1,1,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO100" type="strong" route="main_in_main_out" depart="225.000000" departSpeed="0" color="1,0,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO101" type="weak" route="main_in_main_out" depart="230.000000" departSpeed="0" color="1,1,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO102" type="weak" route="main_in_main_out" depart="235.000000" departSpeed="0" color="1,1,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO103" type="strong" route="main_in_main_out" depart="240.000000" departSpeed="0" color="1,0,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO104" type="weak" route="main_in_main_out" depart="245.000000" departSpeed="0" color="1,1,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO105" type="weak" route="main_in_main_out" depart="250.000000" departSpeed="0" color="1,1,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO106" type="strong" route="main_in_main_out" depart="255.000000" departSpeed="0" color="1,0,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO107" type="weak" route="main_in_main_out" depart="260.000000" departSpeed="0" color="1,1,0" departLane="0" tau = "2"/>
+<vehicle id="mali108" type="malicious" route="main_in_main_out" depart="265.000000" departSpeed="0" color="204, 153, 255" departLane="0" tau = "2"/>
+<vehicle id="MIMO114" type="strong" route="main_in_main_out" depart="270.000000" departSpeed="0" color="1,0,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO115" type="strong" route="main_in_main_out" depart="275.000000" departSpeed="0" color="1,0,0" departLane="0" tau = "2"/>
+<vehicle id="mali116" type="malicious" route="main_in_main_out" depart="280.000000" departSpeed="0" color="204, 153, 255" departLane="1" tau = "2"/>
+<vehicle id="mali122" type="malicious" route="main_in_main_out" depart="285.000000" departSpeed="0" color="204, 153, 255" departLane="0" tau = "2"/>
+<vehicle id="MIMO128" type="weak" route="main_in_main_out" depart="290.000000" departSpeed="0" color="1,1,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO129" type="weak" route="main_in_main_out" depart="295.000000" departSpeed="0" color="1,1,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO130" type="weak" route="main_in_main_out" depart="300.000000" departSpeed="0" color="1,1,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO131" type="strong" route="main_in_main_out" depart="305.000000" departSpeed="0" color="1,0,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO132" type="strong" route="main_in_main_out" depart="310.000000" departSpeed="0" color="1,0,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO133" type="strong" route="main_in_main_out" depart="315.000000" departSpeed="0" color="1,0,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO134" type="weak" route="main_in_main_out" depart="320.000000" departSpeed="0" color="1,1,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO135" type="weak" route="main_in_main_out" depart="325.000000" departSpeed="0" color="1,1,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO136" type="weak" route="main_in_main_out" depart="330.000000" departSpeed="0" color="1,1,0" departLane="0" tau = "2"/>
+<vehicle id="mali137" type="malicious" route="main_in_main_out" depart="335.000000" departSpeed="0" color="204, 153, 255" departLane="1" tau = "2"/>
+<vehicle id="MIMO143" type="weak" route="main_in_main_out" depart="340.000000" departSpeed="0" color="1,1,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO144" type="weak" route="main_in_main_out" depart="345.000000" departSpeed="0" color="1,1,0" departLane="1" tau = "2"/>
+<vehicle id="mali145" type="malicious" route="main_in_main_out" depart="350.000000" departSpeed="0" color="204, 153, 255" departLane="1" tau = "2"/>
+<vehicle id="MIMO151" type="weak" route="main_in_main_out" depart="355.000000" departSpeed="0" color="1,1,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO152" type="weak" route="main_in_main_out" depart="360.000000" departSpeed="0" color="1,1,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO153" type="strong" route="main_in_main_out" depart="365.000000" departSpeed="0" color="1,0,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO154" type="weak" route="main_in_main_out" depart="370.000000" departSpeed="0" color="1,1,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO155" type="weak" route="main_in_main_out" depart="375.000000" departSpeed="0" color="1,1,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO156" type="strong" route="main_in_main_out" depart="380.000000" departSpeed="0" color="1,0,0" departLane="0" tau = "2"/>
+<vehicle id="mali157" type="malicious" route="main_in_main_out" depart="385.000000" departSpeed="0" color="204, 153, 255" departLane="1" tau = "2"/>
+<vehicle id="MIMO163" type="weak" route="main_in_main_out" depart="390.000000" departSpeed="0" color="1,1,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO164" type="strong" route="main_in_main_out" depart="395.000000" departSpeed="0" color="1,0,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO165" type="strong" route="main_in_main_out" depart="400.000000" departSpeed="0" color="1,0,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO166" type="weak" route="main_in_main_out" depart="405.000000" departSpeed="0" color="1,1,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO167" type="weak" route="main_in_main_out" depart="410.000000" departSpeed="0" color="1,1,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO168" type="weak" route="main_in_main_out" depart="415.000000" departSpeed="0" color="1,1,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO169" type="weak" route="main_in_main_out" depart="420.000000" departSpeed="0" color="1,1,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO170" type="weak" route="main_in_main_out" depart="425.000000" departSpeed="0" color="1,1,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO171" type="strong" route="main_in_main_out" depart="430.000000" departSpeed="0" color="1,0,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO172" type="strong" route="main_in_main_out" depart="435.000000" departSpeed="0" color="1,0,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO173" type="strong" route="main_in_main_out" depart="440.000000" departSpeed="0" color="1,0,0" departLane="0" tau = "2"/>
+<vehicle id="mali174" type="malicious" route="main_in_main_out" depart="445.000000" departSpeed="0" color="204, 153, 255" departLane="1" tau = "2"/>
+<vehicle id="mali180" type="malicious" route="main_in_main_out" depart="450.000000" departSpeed="0" color="204, 153, 255" departLane="0" tau = "2"/>
+<vehicle id="mali186" type="malicious" route="main_in_main_out" depart="455.000000" departSpeed="0" color="204, 153, 255" departLane="0" tau = "2"/>
+<vehicle id="MIMO192" type="weak" route="main_in_main_out" depart="460.000000" departSpeed="0" color="1,1,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO193" type="weak" route="main_in_main_out" depart="465.000000" departSpeed="0" color="1,1,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO194" type="strong" route="main_in_main_out" depart="470.000000" departSpeed="0" color="1,0,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO195" type="strong" route="main_in_main_out" depart="475.000000" departSpeed="0" color="1,0,0" departLane="0" tau = "2"/>
+<vehicle id="mali196" type="malicious" route="main_in_main_out" depart="480.000000" departSpeed="0" color="204, 153, 255" departLane="0" tau = "2"/>
+<vehicle id="MIMO202" type="weak" route="main_in_main_out" depart="485.000000" departSpeed="0" color="1,1,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO203" type="weak" route="main_in_main_out" depart="490.000000" departSpeed="0" color="1,1,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO204" type="weak" route="main_in_main_out" depart="495.000000" departSpeed="0" color="1,1,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO205" type="weak" route="main_in_main_out" depart="500.000000" departSpeed="0" color="1,1,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO206" type="weak" route="main_in_main_out" depart="505.000000" departSpeed="0" color="1,1,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO207" type="strong" route="main_in_main_out" depart="510.000000" departSpeed="0" color="1,0,0" departLane="1" tau = "2"/>
+<vehicle id="mali208" type="malicious" route="main_in_main_out" depart="515.000000" departSpeed="0" color="204, 153, 255" departLane="1" tau = "2"/>
+<vehicle id="MIMO214" type="weak" route="main_in_main_out" depart="520.000000" departSpeed="0" color="1,1,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO215" type="strong" route="main_in_main_out" depart="525.000000" departSpeed="0" color="1,0,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO216" type="weak" route="main_in_main_out" depart="530.000000" departSpeed="0" color="1,1,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO217" type="strong" route="main_in_main_out" depart="535.000000" departSpeed="0" color="1,0,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO218" type="strong" route="main_in_main_out" depart="540.000000" departSpeed="0" color="1,0,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO219" type="weak" route="main_in_main_out" depart="545.000000" departSpeed="0" color="1,1,0" departLane="1" tau = "2"/>
+<vehicle id="mali220" type="malicious" route="main_in_main_out" depart="550.000000" departSpeed="0" color="204, 153, 255" departLane="1" tau = "2"/>
+<vehicle id="mali226" type="malicious" route="main_in_main_out" depart="555.000000" departSpeed="0" color="204, 153, 255" departLane="1" tau = "2"/>
+<vehicle id="MIMO232" type="strong" route="main_in_main_out" depart="560.000000" departSpeed="0" color="1,0,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO233" type="weak" route="main_in_main_out" depart="565.000000" departSpeed="0" color="1,1,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO234" type="weak" route="main_in_main_out" depart="570.000000" departSpeed="0" color="1,1,0" departLane="0" tau = "2"/>
+<vehicle id="mali235" type="malicious" route="main_in_main_out" depart="575.000000" departSpeed="0" color="204, 153, 255" departLane="0" tau = "2"/>
+<vehicle id="MIMO241" type="weak" route="main_in_main_out" depart="580.000000" departSpeed="0" color="1,1,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO242" type="weak" route="main_in_main_out" depart="585.000000" departSpeed="0" color="1,1,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO243" type="weak" route="main_in_main_out" depart="590.000000" departSpeed="0" color="1,1,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO244" type="strong" route="main_in_main_out" depart="595.000000" departSpeed="0" color="1,0,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO245" type="strong" route="main_in_main_out" depart="600.000000" departSpeed="0" color="1,0,0" departLane="0" tau = "2"/>
+<vehicle id="mali246" type="malicious" route="main_in_main_out" depart="605.000000" departSpeed="0" color="204, 153, 255" departLane="0" tau = "2"/>
+<vehicle id="MIMO252" type="weak" route="main_in_main_out" depart="610.000000" departSpeed="0" color="1,1,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO253" type="weak" route="main_in_main_out" depart="615.000000" departSpeed="0" color="1,1,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO254" type="weak" route="main_in_main_out" depart="620.000000" departSpeed="0" color="1,1,0" departLane="1" tau = "2"/>
+<vehicle id="mali255" type="malicious" route="main_in_main_out" depart="625.000000" departSpeed="0" color="204, 153, 255" departLane="1" tau = "2"/>
+<vehicle id="mali261" type="malicious" route="main_in_main_out" depart="630.000000" departSpeed="0" color="204, 153, 255" departLane="1" tau = "2"/>
+<vehicle id="MIMO267" type="strong" route="main_in_main_out" depart="635.000000" departSpeed="0" color="1,0,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO268" type="weak" route="main_in_main_out" depart="640.000000" departSpeed="0" color="1,1,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO269" type="strong" route="main_in_main_out" depart="645.000000" departSpeed="0" color="1,0,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO270" type="weak" route="main_in_main_out" depart="650.000000" departSpeed="0" color="1,1,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO271" type="weak" route="main_in_main_out" depart="655.000000" departSpeed="0" color="1,1,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO272" type="weak" route="main_in_main_out" depart="660.000000" departSpeed="0" color="1,1,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO273" type="weak" route="main_in_main_out" depart="665.000000" departSpeed="0" color="1,1,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO274" type="weak" route="main_in_main_out" depart="670.000000" departSpeed="0" color="1,1,0" departLane="0" tau = "2"/>
+<vehicle id="mali275" type="malicious" route="main_in_main_out" depart="675.000000" departSpeed="0" color="204, 153, 255" departLane="0" tau = "2"/>
+<vehicle id="MIMO281" type="strong" route="main_in_main_out" depart="680.000000" departSpeed="0" color="1,0,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO282" type="weak" route="main_in_main_out" depart="685.000000" departSpeed="0" color="1,1,0" departLane="1" tau = "2"/>
+<vehicle id="mali283" type="malicious" route="main_in_main_out" depart="690.000000" departSpeed="0" color="204, 153, 255" departLane="1" tau = "2"/>
+<vehicle id="mali289" type="malicious" route="main_in_main_out" depart="695.000000" departSpeed="0" color="204, 153, 255" departLane="1" tau = "2"/>
+<vehicle id="MIMO295" type="weak" route="main_in_main_out" depart="700.000000" departSpeed="0" color="1,1,0" departLane="1" tau = "2"/>
+<vehicle id="mali296" type="malicious" route="main_in_main_out" depart="705.000000" departSpeed="0" color="204, 153, 255" departLane="1" tau = "2"/>
+<vehicle id="mali302" type="malicious" route="main_in_main_out" depart="710.000000" departSpeed="0" color="204, 153, 255" departLane="1" tau = "2"/>
+<vehicle id="MIMO308" type="weak" route="main_in_main_out" depart="715.000000" departSpeed="0" color="1,1,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO309" type="weak" route="main_in_main_out" depart="720.000000" departSpeed="0" color="1,1,0" departLane="0" tau = "2"/>
+<vehicle id="mali310" type="malicious" route="main_in_main_out" depart="725.000000" departSpeed="0" color="204, 153, 255" departLane="1" tau = "2"/>
+<vehicle id="MIMO316" type="strong" route="main_in_main_out" depart="730.000000" departSpeed="0" color="1,0,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO317" type="weak" route="main_in_main_out" depart="735.000000" departSpeed="0" color="1,1,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO318" type="strong" route="main_in_main_out" depart="740.000000" departSpeed="0" color="1,0,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO319" type="strong" route="main_in_main_out" depart="745.000000" departSpeed="0" color="1,0,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO320" type="weak" route="main_in_main_out" depart="750.000000" departSpeed="0" color="1,1,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO321" type="weak" route="main_in_main_out" depart="755.000000" departSpeed="0" color="1,1,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO322" type="weak" route="main_in_main_out" depart="760.000000" departSpeed="0" color="1,1,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO323" type="weak" route="main_in_main_out" depart="765.000000" departSpeed="0" color="1,1,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO324" type="strong" route="main_in_main_out" depart="770.000000" departSpeed="0" color="1,0,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO325" type="strong" route="main_in_main_out" depart="775.000000" departSpeed="0" color="1,0,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO326" type="weak" route="main_in_main_out" depart="780.000000" departSpeed="0" color="1,1,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO327" type="weak" route="main_in_main_out" depart="785.000000" departSpeed="0" color="1,1,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO328" type="weak" route="main_in_main_out" depart="790.000000" departSpeed="0" color="1,1,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO329" type="weak" route="main_in_main_out" depart="795.000000" departSpeed="0" color="1,1,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO330" type="strong" route="main_in_main_out" depart="800.000000" departSpeed="0" color="1,0,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO331" type="weak" route="main_in_main_out" depart="805.000000" departSpeed="0" color="1,1,0" departLane="0" tau = "2"/>
+<vehicle id="mali332" type="malicious" route="main_in_main_out" depart="810.000000" departSpeed="0" color="204, 153, 255" departLane="0" tau = "2"/>
+<vehicle id="MIMO338" type="strong" route="main_in_main_out" depart="815.000000" departSpeed="0" color="1,0,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO339" type="weak" route="main_in_main_out" depart="820.000000" departSpeed="0" color="1,1,0" departLane="1" tau = "2"/>
+<vehicle id="mali340" type="malicious" route="main_in_main_out" depart="825.000000" departSpeed="0" color="204, 153, 255" departLane="1" tau = "2"/>
+<vehicle id="MIMO346" type="strong" route="main_in_main_out" depart="830.000000" departSpeed="0" color="1,0,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO347" type="strong" route="main_in_main_out" depart="835.000000" departSpeed="0" color="1,0,0" departLane="0" tau = "2"/>
+<vehicle id="mali348" type="malicious" route="main_in_main_out" depart="840.000000" departSpeed="0" color="204, 153, 255" departLane="0" tau = "2"/>
+<vehicle id="MIMO354" type="strong" route="main_in_main_out" depart="845.000000" departSpeed="0" color="1,0,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO355" type="weak" route="main_in_main_out" depart="850.000000" departSpeed="0" color="1,1,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO356" type="weak" route="main_in_main_out" depart="855.000000" departSpeed="0" color="1,1,0" departLane="1" tau = "2"/>
+<vehicle id="mali357" type="malicious" route="main_in_main_out" depart="860.000000" departSpeed="0" color="204, 153, 255" departLane="0" tau = "2"/>
+<vehicle id="MIMO363" type="weak" route="main_in_main_out" depart="865.000000" departSpeed="0" color="1,1,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO364" type="weak" route="main_in_main_out" depart="870.000000" departSpeed="0" color="1,1,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO365" type="strong" route="main_in_main_out" depart="875.000000" departSpeed="0" color="1,0,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO366" type="strong" route="main_in_main_out" depart="880.000000" departSpeed="0" color="1,0,0" departLane="0" tau = "2"/>
+<vehicle id="mali367" type="malicious" route="main_in_main_out" depart="885.000000" departSpeed="0" color="204, 153, 255" departLane="0" tau = "2"/>
+<vehicle id="MIMO373" type="weak" route="main_in_main_out" depart="890.000000" departSpeed="0" color="1,1,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO374" type="weak" route="main_in_main_out" depart="895.000000" departSpeed="0" color="1,1,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO375" type="strong" route="main_in_main_out" depart="900.000000" departSpeed="0" color="1,0,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO376" type="weak" route="main_in_main_out" depart="905.000000" departSpeed="0" color="1,1,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO377" type="strong" route="main_in_main_out" depart="910.000000" departSpeed="0" color="1,0,0" departLane="1" tau = "2"/>
+<vehicle id="mali378" type="malicious" route="main_in_main_out" depart="915.000000" departSpeed="0" color="204, 153, 255" departLane="0" tau = "2"/>
+<vehicle id="MIMO384" type="weak" route="main_in_main_out" depart="920.000000" departSpeed="0" color="1,1,0" departLane="1" tau = "2"/>
+<vehicle id="mali385" type="malicious" route="main_in_main_out" depart="925.000000" departSpeed="0" color="204, 153, 255" departLane="0" tau = "2"/>
+<vehicle id="MIMO391" type="weak" route="main_in_main_out" depart="930.000000" departSpeed="0" color="1,1,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO392" type="weak" route="main_in_main_out" depart="935.000000" departSpeed="0" color="1,1,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO393" type="weak" route="main_in_main_out" depart="940.000000" departSpeed="0" color="1,1,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO394" type="strong" route="main_in_main_out" depart="945.000000" departSpeed="0" color="1,0,0" departLane="0" tau = "2"/>
+<vehicle id="mali395" type="malicious" route="main_in_main_out" depart="950.000000" departSpeed="0" color="204, 153, 255" departLane="1" tau = "2"/>
+<vehicle id="MIMO401" type="weak" route="main_in_main_out" depart="955.000000" departSpeed="0" color="1,1,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO402" type="weak" route="main_in_main_out" depart="960.000000" departSpeed="0" color="1,1,0" departLane="0" tau = "2"/>
+<vehicle id="mali403" type="malicious" route="main_in_main_out" depart="965.000000" departSpeed="0" color="204, 153, 255" departLane="0" tau = "2"/>
+<vehicle id="MIMO409" type="weak" route="main_in_main_out" depart="970.000000" departSpeed="0" color="1,1,0" departLane="1" tau = "2"/>
+<vehicle id="mali410" type="malicious" route="main_in_main_out" depart="975.000000" departSpeed="0" color="204, 153, 255" departLane="1" tau = "2"/>
+<vehicle id="mali416" type="malicious" route="main_in_main_out" depart="980.000000" departSpeed="0" color="204, 153, 255" departLane="1" tau = "2"/>
+<vehicle id="mali422" type="malicious" route="main_in_main_out" depart="985.000000" departSpeed="0" color="204, 153, 255" departLane="1" tau = "2"/>
+<vehicle id="MIMO428" type="strong" route="main_in_main_out" depart="990.000000" departSpeed="0" color="1,0,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO429" type="weak" route="main_in_main_out" depart="995.000000" departSpeed="0" color="1,1,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO430" type="weak" route="main_in_main_out" depart="1000.000000" departSpeed="0" color="1,1,0" departLane="1" tau = "2"/>
+<vehicle id="mali431" type="malicious" route="main_in_main_out" depart="1005.000000" departSpeed="0" color="204, 153, 255" departLane="1" tau = "2"/>
+<vehicle id="MIMO437" type="weak" route="main_in_main_out" depart="1010.000000" departSpeed="0" color="1,1,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO438" type="weak" route="main_in_main_out" depart="1015.000000" departSpeed="0" color="1,1,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO439" type="strong" route="main_in_main_out" depart="1020.000000" departSpeed="0" color="1,0,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO440" type="weak" route="main_in_main_out" depart="1025.000000" departSpeed="0" color="1,1,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO441" type="weak" route="main_in_main_out" depart="1030.000000" departSpeed="0" color="1,1,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO442" type="weak" route="main_in_main_out" depart="1035.000000" departSpeed="0" color="1,1,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO443" type="weak" route="main_in_main_out" depart="1040.000000" departSpeed="0" color="1,1,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO444" type="weak" route="main_in_main_out" depart="1045.000000" departSpeed="0" color="1,1,0" departLane="0" tau = "2"/>
+<vehicle id="mali445" type="malicious" route="main_in_main_out" depart="1050.000000" departSpeed="0" color="204, 153, 255" departLane="1" tau = "2"/>
+<vehicle id="MIMO451" type="weak" route="main_in_main_out" depart="1055.000000" departSpeed="0" color="1,1,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO452" type="strong" route="main_in_main_out" depart="1060.000000" departSpeed="0" color="1,0,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO453" type="strong" route="main_in_main_out" depart="1065.000000" departSpeed="0" color="1,0,0" departLane="1" tau = "2"/>
+<vehicle id="mali454" type="malicious" route="main_in_main_out" depart="1070.000000" departSpeed="0" color="204, 153, 255" departLane="1" tau = "2"/>
+<vehicle id="MIMO460" type="strong" route="main_in_main_out" depart="1075.000000" departSpeed="0" color="1,0,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO461" type="strong" route="main_in_main_out" depart="1080.000000" departSpeed="0" color="1,0,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO462" type="weak" route="main_in_main_out" depart="1085.000000" departSpeed="0" color="1,1,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO463" type="weak" route="main_in_main_out" depart="1090.000000" departSpeed="0" color="1,1,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO464" type="weak" route="main_in_main_out" depart="1095.000000" departSpeed="0" color="1,1,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO465" type="weak" route="main_in_main_out" depart="1100.000000" departSpeed="0" color="1,1,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO466" type="weak" route="main_in_main_out" depart="1105.000000" departSpeed="0" color="1,1,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO467" type="strong" route="main_in_main_out" depart="1110.000000" departSpeed="0" color="1,0,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO468" type="strong" route="main_in_main_out" depart="1115.000000" departSpeed="0" color="1,0,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO469" type="strong" route="main_in_main_out" depart="1120.000000" departSpeed="0" color="1,0,0" departLane="0" tau = "2"/>
+<vehicle id="mali470" type="malicious" route="main_in_main_out" depart="1125.000000" departSpeed="0" color="204, 153, 255" departLane="0" tau = "2"/>
+<vehicle id="MIMO476" type="weak" route="main_in_main_out" depart="1130.000000" departSpeed="0" color="1,1,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO477" type="weak" route="main_in_main_out" depart="1135.000000" departSpeed="0" color="1,1,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO478" type="weak" route="main_in_main_out" depart="1140.000000" departSpeed="0" color="1,1,0" departLane="0" tau = "2"/>
+<vehicle id="mali479" type="malicious" route="main_in_main_out" depart="1145.000000" departSpeed="0" color="204, 153, 255" departLane="0" tau = "2"/>
+<vehicle id="MIMO485" type="strong" route="main_in_main_out" depart="1150.000000" departSpeed="0" color="1,0,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO486" type="weak" route="main_in_main_out" depart="1155.000000" departSpeed="0" color="1,1,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO487" type="weak" route="main_in_main_out" depart="1160.000000" departSpeed="0" color="1,1,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO488" type="strong" route="main_in_main_out" depart="1165.000000" departSpeed="0" color="1,0,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO489" type="strong" route="main_in_main_out" depart="1170.000000" departSpeed="0" color="1,0,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO490" type="weak" route="main_in_main_out" depart="1175.000000" departSpeed="0" color="1,1,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO491" type="strong" route="main_in_main_out" depart="1180.000000" departSpeed="0" color="1,0,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO492" type="weak" route="main_in_main_out" depart="1185.000000" departSpeed="0" color="1,1,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO493" type="weak" route="main_in_main_out" depart="1190.000000" departSpeed="0" color="1,1,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO494" type="strong" route="main_in_main_out" depart="1195.000000" departSpeed="0" color="1,0,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO495" type="weak" route="main_in_main_out" depart="1200.000000" departSpeed="0" color="1,1,0" departLane="1" tau = "2"/>
+<vehicle id="mali496" type="malicious" route="main_in_main_out" depart="1205.000000" departSpeed="0" color="204, 153, 255" departLane="1" tau = "2"/>
+<vehicle id="MIMO502" type="weak" route="main_in_main_out" depart="1210.000000" departSpeed="0" color="1,1,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO503" type="weak" route="main_in_main_out" depart="1215.000000" departSpeed="0" color="1,1,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO504" type="weak" route="main_in_main_out" depart="1220.000000" departSpeed="0" color="1,1,0" departLane="0" tau = "2"/>
+<vehicle id="mali505" type="malicious" route="main_in_main_out" depart="1225.000000" departSpeed="0" color="204, 153, 255" departLane="0" tau = "2"/>
+<vehicle id="MIMO511" type="weak" route="main_in_main_out" depart="1230.000000" departSpeed="0" color="1,1,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO512" type="weak" route="main_in_main_out" depart="1235.000000" departSpeed="0" color="1,1,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO513" type="weak" route="main_in_main_out" depart="1240.000000" departSpeed="0" color="1,1,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO514" type="weak" route="main_in_main_out" depart="1245.000000" departSpeed="0" color="1,1,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO515" type="strong" route="main_in_main_out" depart="1250.000000" departSpeed="0" color="1,0,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO516" type="weak" route="main_in_main_out" depart="1255.000000" departSpeed="0" color="1,1,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO517" type="strong" route="main_in_main_out" depart="1260.000000" departSpeed="0" color="1,0,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO518" type="weak" route="main_in_main_out" depart="1265.000000" departSpeed="0" color="1,1,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO519" type="strong" route="main_in_main_out" depart="1270.000000" departSpeed="0" color="1,0,0" departLane="1" tau = "2"/>
+<vehicle id="mali520" type="malicious" route="main_in_main_out" depart="1275.000000" departSpeed="0" color="204, 153, 255" departLane="1" tau = "2"/>
+<vehicle id="MIMO526" type="weak" route="main_in_main_out" depart="1280.000000" departSpeed="0" color="1,1,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO527" type="weak" route="main_in_main_out" depart="1285.000000" departSpeed="0" color="1,1,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO528" type="strong" route="main_in_main_out" depart="1290.000000" departSpeed="0" color="1,0,0" departLane="1" tau = "2"/>
+<vehicle id="mali529" type="malicious" route="main_in_main_out" depart="1295.000000" departSpeed="0" color="204, 153, 255" departLane="1" tau = "2"/>
+<vehicle id="mali535" type="malicious" route="main_in_main_out" depart="1300.000000" departSpeed="0" color="204, 153, 255" departLane="1" tau = "2"/>
+<vehicle id="MIMO541" type="weak" route="main_in_main_out" depart="1305.000000" departSpeed="0" color="1,1,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO542" type="weak" route="main_in_main_out" depart="1310.000000" departSpeed="0" color="1,1,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO543" type="weak" route="main_in_main_out" depart="1315.000000" departSpeed="0" color="1,1,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO544" type="strong" route="main_in_main_out" depart="1320.000000" departSpeed="0" color="1,0,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO545" type="weak" route="main_in_main_out" depart="1325.000000" departSpeed="0" color="1,1,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO546" type="weak" route="main_in_main_out" depart="1330.000000" departSpeed="0" color="1,1,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO547" type="strong" route="main_in_main_out" depart="1335.000000" departSpeed="0" color="1,0,0" departLane="1" tau = "2"/>
+<vehicle id="mali548" type="malicious" route="main_in_main_out" depart="1340.000000" departSpeed="0" color="204, 153, 255" departLane="0" tau = "2"/>
+<vehicle id="MIMO554" type="weak" route="main_in_main_out" depart="1345.000000" departSpeed="0" color="1,1,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO555" type="weak" route="main_in_main_out" depart="1350.000000" departSpeed="0" color="1,1,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO556" type="weak" route="main_in_main_out" depart="1355.000000" departSpeed="0" color="1,1,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO557" type="strong" route="main_in_main_out" depart="1360.000000" departSpeed="0" color="1,0,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO558" type="weak" route="main_in_main_out" depart="1365.000000" departSpeed="0" color="1,1,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO559" type="strong" route="main_in_main_out" depart="1370.000000" departSpeed="0" color="1,0,0" departLane="1" tau = "2"/>
+<vehicle id="mali560" type="malicious" route="main_in_main_out" depart="1375.000000" departSpeed="0" color="204, 153, 255" departLane="0" tau = "2"/>
+<vehicle id="MIMO566" type="weak" route="main_in_main_out" depart="1380.000000" departSpeed="0" color="1,1,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO567" type="weak" route="main_in_main_out" depart="1385.000000" departSpeed="0" color="1,1,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO568" type="weak" route="main_in_main_out" depart="1390.000000" departSpeed="0" color="1,1,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO569" type="weak" route="main_in_main_out" depart="1395.000000" departSpeed="0" color="1,1,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO570" type="weak" route="main_in_main_out" depart="1400.000000" departSpeed="0" color="1,1,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO571" type="weak" route="main_in_main_out" depart="1405.000000" departSpeed="0" color="1,1,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO572" type="weak" route="main_in_main_out" depart="1410.000000" departSpeed="0" color="1,1,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO573" type="strong" route="main_in_main_out" depart="1415.000000" departSpeed="0" color="1,0,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO574" type="strong" route="main_in_main_out" depart="1420.000000" departSpeed="0" color="1,0,0" departLane="0" tau = "2"/>
+<vehicle id="mali575" type="malicious" route="main_in_main_out" depart="1425.000000" departSpeed="0" color="204, 153, 255" departLane="0" tau = "2"/>
+<vehicle id="mali581" type="malicious" route="main_in_main_out" depart="1430.000000" departSpeed="0" color="204, 153, 255" departLane="0" tau = "2"/>
+<vehicle id="mali587" type="malicious" route="main_in_main_out" depart="1435.000000" departSpeed="0" color="204, 153, 255" departLane="0" tau = "2"/>
+<vehicle id="MIMO593" type="strong" route="main_in_main_out" depart="1440.000000" departSpeed="0" color="1,0,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO594" type="weak" route="main_in_main_out" depart="1445.000000" departSpeed="0" color="1,1,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO595" type="strong" route="main_in_main_out" depart="1450.000000" departSpeed="0" color="1,0,0" departLane="0" tau = "2"/>
+<vehicle id="mali596" type="malicious" route="main_in_main_out" depart="1455.000000" departSpeed="0" color="204, 153, 255" departLane="1" tau = "2"/>
+<vehicle id="MIMO602" type="weak" route="main_in_main_out" depart="1460.000000" departSpeed="0" color="1,1,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO603" type="weak" route="main_in_main_out" depart="1465.000000" departSpeed="0" color="1,1,0" departLane="0" tau = "2"/>
+<vehicle id="mali604" type="malicious" route="main_in_main_out" depart="1470.000000" departSpeed="0" color="204, 153, 255" departLane="1" tau = "2"/>
+<vehicle id="MIMO610" type="strong" route="main_in_main_out" depart="1475.000000" departSpeed="0" color="1,0,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO611" type="weak" route="main_in_main_out" depart="1480.000000" departSpeed="0" color="1,1,0" departLane="0" tau = "2"/>
+<vehicle id="mali612" type="malicious" route="main_in_main_out" depart="1485.000000" departSpeed="0" color="204, 153, 255" departLane="1" tau = "2"/>
+<vehicle id="mali618" type="malicious" route="main_in_main_out" depart="1490.000000" departSpeed="0" color="204, 153, 255" departLane="1" tau = "2"/>
+<vehicle id="MIMO624" type="weak" route="main_in_main_out" depart="1495.000000" departSpeed="0" color="1,1,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO625" type="strong" route="main_in_main_out" depart="1500.000000" departSpeed="0" color="1,0,0" departLane="1" tau = "2"/>
+<vehicle id="mali626" type="malicious" route="main_in_main_out" depart="1505.000000" departSpeed="0" color="204, 153, 255" departLane="0" tau = "2"/>
+<vehicle id="MIMO632" type="weak" route="main_in_main_out" depart="1510.000000" departSpeed="0" color="1,1,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO633" type="weak" route="main_in_main_out" depart="1515.000000" departSpeed="0" color="1,1,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO634" type="weak" route="main_in_main_out" depart="1520.000000" departSpeed="0" color="1,1,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO635" type="weak" route="main_in_main_out" depart="1525.000000" departSpeed="0" color="1,1,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO636" type="weak" route="main_in_main_out" depart="1530.000000" departSpeed="0" color="1,1,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO637" type="weak" route="main_in_main_out" depart="1535.000000" departSpeed="0" color="1,1,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO638" type="strong" route="main_in_main_out" depart="1540.000000" departSpeed="0" color="1,0,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO639" type="weak" route="main_in_main_out" depart="1545.000000" departSpeed="0" color="1,1,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO640" type="weak" route="main_in_main_out" depart="1550.000000" departSpeed="0" color="1,1,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO641" type="strong" route="main_in_main_out" depart="1555.000000" departSpeed="0" color="1,0,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO642" type="weak" route="main_in_main_out" depart="1560.000000" departSpeed="0" color="1,1,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO643" type="weak" route="main_in_main_out" depart="1565.000000" departSpeed="0" color="1,1,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO644" type="weak" route="main_in_main_out" depart="1570.000000" departSpeed="0" color="1,1,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO645" type="weak" route="main_in_main_out" depart="1575.000000" departSpeed="0" color="1,1,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO646" type="weak" route="main_in_main_out" depart="1580.000000" departSpeed="0" color="1,1,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO647" type="strong" route="main_in_main_out" depart="1585.000000" departSpeed="0" color="1,0,0" departLane="1" tau = "2"/>
+<vehicle id="mali648" type="malicious" route="main_in_main_out" depart="1590.000000" departSpeed="0" color="204, 153, 255" departLane="1" tau = "2"/>
+<vehicle id="MIMO654" type="strong" route="main_in_main_out" depart="1595.000000" departSpeed="0" color="1,0,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO655" type="weak" route="main_in_main_out" depart="1600.000000" departSpeed="0" color="1,1,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO656" type="weak" route="main_in_main_out" depart="1605.000000" departSpeed="0" color="1,1,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO657" type="strong" route="main_in_main_out" depart="1610.000000" departSpeed="0" color="1,0,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO658" type="weak" route="main_in_main_out" depart="1615.000000" departSpeed="0" color="1,1,0" departLane="0" tau = "2"/>
+<vehicle id="mali659" type="malicious" route="main_in_main_out" depart="1620.000000" departSpeed="0" color="204, 153, 255" departLane="0" tau = "2"/>
+<vehicle id="MIMO665" type="weak" route="main_in_main_out" depart="1625.000000" departSpeed="0" color="1,1,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO666" type="strong" route="main_in_main_out" depart="1630.000000" departSpeed="0" color="1,0,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO667" type="weak" route="main_in_main_out" depart="1635.000000" departSpeed="0" color="1,1,0" departLane="0" tau = "2"/>
+<vehicle id="mali668" type="malicious" route="main_in_main_out" depart="1640.000000" departSpeed="0" color="204, 153, 255" departLane="1" tau = "2"/>
+<vehicle id="MIMO674" type="strong" route="main_in_main_out" depart="1645.000000" departSpeed="0" color="1,0,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO675" type="strong" route="main_in_main_out" depart="1650.000000" departSpeed="0" color="1,0,0" departLane="1" tau = "2"/>
+<vehicle id="mali676" type="malicious" route="main_in_main_out" depart="1655.000000" departSpeed="0" color="204, 153, 255" departLane="0" tau = "2"/>
+<vehicle id="MIMO682" type="weak" route="main_in_main_out" depart="1660.000000" departSpeed="0" color="1,1,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO683" type="weak" route="main_in_main_out" depart="1665.000000" departSpeed="0" color="1,1,0" departLane="1" tau = "2"/>
+<vehicle id="mali684" type="malicious" route="main_in_main_out" depart="1670.000000" departSpeed="0" color="204, 153, 255" departLane="1" tau = "2"/>
+<vehicle id="mali690" type="malicious" route="main_in_main_out" depart="1675.000000" departSpeed="0" color="204, 153, 255" departLane="1" tau = "2"/>
+<vehicle id="MIMO696" type="weak" route="main_in_main_out" depart="1680.000000" departSpeed="0" color="1,1,0" departLane="1" tau = "2"/>
+<vehicle id="mali697" type="malicious" route="main_in_main_out" depart="1685.000000" departSpeed="0" color="204, 153, 255" departLane="0" tau = "2"/>
+<vehicle id="MIMO703" type="weak" route="main_in_main_out" depart="1690.000000" departSpeed="0" color="1,1,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO704" type="weak" route="main_in_main_out" depart="1695.000000" departSpeed="0" color="1,1,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO705" type="weak" route="main_in_main_out" depart="1700.000000" departSpeed="0" color="1,1,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO706" type="weak" route="main_in_main_out" depart="1705.000000" departSpeed="0" color="1,1,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO707" type="weak" route="main_in_main_out" depart="1710.000000" departSpeed="0" color="1,1,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO708" type="weak" route="main_in_main_out" depart="1715.000000" departSpeed="0" color="1,1,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO709" type="weak" route="main_in_main_out" depart="1720.000000" departSpeed="0" color="1,1,0" departLane="0" tau = "2"/>
+<vehicle id="mali710" type="malicious" route="main_in_main_out" depart="1725.000000" departSpeed="0" color="204, 153, 255" departLane="0" tau = "2"/>
+<vehicle id="mali716" type="malicious" route="main_in_main_out" depart="1730.000000" departSpeed="0" color="204, 153, 255" departLane="1" tau = "2"/>
+<vehicle id="mali722" type="malicious" route="main_in_main_out" depart="1735.000000" departSpeed="0" color="204, 153, 255" departLane="1" tau = "2"/>
+<vehicle id="MIMO728" type="weak" route="main_in_main_out" depart="1740.000000" departSpeed="0" color="1,1,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO729" type="weak" route="main_in_main_out" depart="1745.000000" departSpeed="0" color="1,1,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO730" type="strong" route="main_in_main_out" depart="1750.000000" departSpeed="0" color="1,0,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO731" type="weak" route="main_in_main_out" depart="1755.000000" departSpeed="0" color="1,1,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO732" type="weak" route="main_in_main_out" depart="1760.000000" departSpeed="0" color="1,1,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO733" type="strong" route="main_in_main_out" depart="1765.000000" departSpeed="0" color="1,0,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO734" type="weak" route="main_in_main_out" depart="1770.000000" departSpeed="0" color="1,1,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO735" type="weak" route="main_in_main_out" depart="1775.000000" departSpeed="0" color="1,1,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO736" type="weak" route="main_in_main_out" depart="1780.000000" departSpeed="0" color="1,1,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO737" type="strong" route="main_in_main_out" depart="1785.000000" departSpeed="0" color="1,0,0" departLane="0" tau = "2"/>
+<vehicle id="mali738" type="malicious" route="main_in_main_out" depart="1790.000000" departSpeed="0" color="204, 153, 255" departLane="1" tau = "2"/>
+<vehicle id="MIMO744" type="strong" route="main_in_main_out" depart="1795.000000" departSpeed="0" color="1,0,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO745" type="weak" route="main_in_main_out" depart="1800.000000" departSpeed="0" color="1,1,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO746" type="strong" route="main_in_main_out" depart="1805.000000" departSpeed="0" color="1,0,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO747" type="strong" route="main_in_main_out" depart="1810.000000" departSpeed="0" color="1,0,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO748" type="strong" route="main_in_main_out" depart="1815.000000" departSpeed="0" color="1,0,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO749" type="weak" route="main_in_main_out" depart="1820.000000" departSpeed="0" color="1,1,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO750" type="strong" route="main_in_main_out" depart="1825.000000" departSpeed="0" color="1,0,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO751" type="weak" route="main_in_main_out" depart="1830.000000" departSpeed="0" color="1,1,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO752" type="strong" route="main_in_main_out" depart="1835.000000" departSpeed="0" color="1,0,0" departLane="0" tau = "2"/>
+<vehicle id="mali753" type="malicious" route="main_in_main_out" depart="1840.000000" departSpeed="0" color="204, 153, 255" departLane="0" tau = "2"/>
+<vehicle id="mali759" type="malicious" route="main_in_main_out" depart="1845.000000" departSpeed="0" color="204, 153, 255" departLane="1" tau = "2"/>
+<vehicle id="mali765" type="malicious" route="main_in_main_out" depart="1850.000000" departSpeed="0" color="204, 153, 255" departLane="1" tau = "2"/>
+<vehicle id="MIMO771" type="weak" route="main_in_main_out" depart="1855.000000" departSpeed="0" color="1,1,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO772" type="strong" route="main_in_main_out" depart="1860.000000" departSpeed="0" color="1,0,0" departLane="0" tau = "2"/>
+<vehicle id="mali773" type="malicious" route="main_in_main_out" depart="1865.000000" departSpeed="0" color="204, 153, 255" departLane="0" tau = "2"/>
+<vehicle id="MIMO779" type="weak" route="main_in_main_out" depart="1870.000000" departSpeed="0" color="1,1,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO780" type="weak" route="main_in_main_out" depart="1875.000000" departSpeed="0" color="1,1,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO781" type="weak" route="main_in_main_out" depart="1880.000000" departSpeed="0" color="1,1,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO782" type="strong" route="main_in_main_out" depart="1885.000000" departSpeed="0" color="1,0,0" departLane="0" tau = "2"/>
+<vehicle id="mali783" type="malicious" route="main_in_main_out" depart="1890.000000" departSpeed="0" color="204, 153, 255" departLane="1" tau = "2"/>
+<vehicle id="MIMO789" type="weak" route="main_in_main_out" depart="1895.000000" departSpeed="0" color="1,1,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO790" type="strong" route="main_in_main_out" depart="1900.000000" departSpeed="0" color="1,0,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO791" type="strong" route="main_in_main_out" depart="1905.000000" departSpeed="0" color="1,0,0" departLane="0" tau = "2"/>
+<vehicle id="mali792" type="malicious" route="main_in_main_out" depart="1910.000000" departSpeed="0" color="204, 153, 255" departLane="0" tau = "2"/>
+<vehicle id="MIMO798" type="weak" route="main_in_main_out" depart="1915.000000" departSpeed="0" color="1,1,0" departLane="1" tau = "2"/>
+<vehicle id="mali799" type="malicious" route="main_in_main_out" depart="1920.000000" departSpeed="0" color="204, 153, 255" departLane="0" tau = "2"/>
+<vehicle id="MIMO805" type="strong" route="main_in_main_out" depart="1925.000000" departSpeed="0" color="1,0,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO806" type="weak" route="main_in_main_out" depart="1930.000000" departSpeed="0" color="1,1,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO807" type="weak" route="main_in_main_out" depart="1935.000000" departSpeed="0" color="1,1,0" departLane="1" tau = "2"/>
+<vehicle id="mali808" type="malicious" route="main_in_main_out" depart="1940.000000" departSpeed="0" color="204, 153, 255" departLane="1" tau = "2"/>
+<vehicle id="mali814" type="malicious" route="main_in_main_out" depart="1945.000000" departSpeed="0" color="204, 153, 255" departLane="0" tau = "2"/>
+<vehicle id="MIMO820" type="weak" route="main_in_main_out" depart="1950.000000" departSpeed="0" color="1,1,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO821" type="weak" route="main_in_main_out" depart="1955.000000" departSpeed="0" color="1,1,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO822" type="weak" route="main_in_main_out" depart="1960.000000" departSpeed="0" color="1,1,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO823" type="weak" route="main_in_main_out" depart="1965.000000" departSpeed="0" color="1,1,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO824" type="strong" route="main_in_main_out" depart="1970.000000" departSpeed="0" color="1,0,0" departLane="0" tau = "2"/>
+<vehicle id="mali825" type="malicious" route="main_in_main_out" depart="1975.000000" departSpeed="0" color="204, 153, 255" departLane="1" tau = "2"/>
+<vehicle id="MIMO831" type="weak" route="main_in_main_out" depart="1980.000000" departSpeed="0" color="1,1,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO832" type="weak" route="main_in_main_out" depart="1985.000000" departSpeed="0" color="1,1,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO833" type="weak" route="main_in_main_out" depart="1990.000000" departSpeed="0" color="1,1,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO834" type="weak" route="main_in_main_out" depart="1995.000000" departSpeed="0" color="1,1,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO835" type="strong" route="main_in_main_out" depart="2000.000000" departSpeed="0" color="1,0,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO836" type="weak" route="main_in_main_out" depart="2005.000000" departSpeed="0" color="1,1,0" departLane="0" tau = "2"/>
+<vehicle id="mali837" type="malicious" route="main_in_main_out" depart="2010.000000" departSpeed="0" color="204, 153, 255" departLane="0" tau = "2"/>
+<vehicle id="mali843" type="malicious" route="main_in_main_out" depart="2015.000000" departSpeed="0" color="204, 153, 255" departLane="1" tau = "2"/>
+<vehicle id="MIMO849" type="weak" route="main_in_main_out" depart="2020.000000" departSpeed="0" color="1,1,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO850" type="strong" route="main_in_main_out" depart="2025.000000" departSpeed="0" color="1,0,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO851" type="strong" route="main_in_main_out" depart="2030.000000" departSpeed="0" color="1,0,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO852" type="weak" route="main_in_main_out" depart="2035.000000" departSpeed="0" color="1,1,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO853" type="weak" route="main_in_main_out" depart="2040.000000" departSpeed="0" color="1,1,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO854" type="weak" route="main_in_main_out" depart="2045.000000" departSpeed="0" color="1,1,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO855" type="weak" route="main_in_main_out" depart="2050.000000" departSpeed="0" color="1,1,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO856" type="weak" route="main_in_main_out" depart="2055.000000" departSpeed="0" color="1,1,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO857" type="weak" route="main_in_main_out" depart="2060.000000" departSpeed="0" color="1,1,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO858" type="strong" route="main_in_main_out" depart="2065.000000" departSpeed="0" color="1,0,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO859" type="weak" route="main_in_main_out" depart="2070.000000" departSpeed="0" color="1,1,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO860" type="weak" route="main_in_main_out" depart="2075.000000" departSpeed="0" color="1,1,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO861" type="weak" route="main_in_main_out" depart="2080.000000" departSpeed="0" color="1,1,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO862" type="strong" route="main_in_main_out" depart="2085.000000" departSpeed="0" color="1,0,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO863" type="strong" route="main_in_main_out" depart="2090.000000" departSpeed="0" color="1,0,0" departLane="1" tau = "2"/>
+<vehicle id="mali864" type="malicious" route="main_in_main_out" depart="2095.000000" departSpeed="0" color="204, 153, 255" departLane="1" tau = "2"/>
+<vehicle id="MIMO870" type="weak" route="main_in_main_out" depart="2100.000000" departSpeed="0" color="1,1,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO871" type="weak" route="main_in_main_out" depart="2105.000000" departSpeed="0" color="1,1,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO872" type="strong" route="main_in_main_out" depart="2110.000000" departSpeed="0" color="1,0,0" departLane="1" tau = "2"/>
+<vehicle id="mali873" type="malicious" route="main_in_main_out" depart="2115.000000" departSpeed="0" color="204, 153, 255" departLane="1" tau = "2"/>
+<vehicle id="MIMO879" type="weak" route="main_in_main_out" depart="2120.000000" departSpeed="0" color="1,1,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO880" type="strong" route="main_in_main_out" depart="2125.000000" departSpeed="0" color="1,0,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO881" type="weak" route="main_in_main_out" depart="2130.000000" departSpeed="0" color="1,1,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO882" type="weak" route="main_in_main_out" depart="2135.000000" departSpeed="0" color="1,1,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO883" type="weak" route="main_in_main_out" depart="2140.000000" departSpeed="0" color="1,1,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO884" type="strong" route="main_in_main_out" depart="2145.000000" departSpeed="0" color="1,0,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO885" type="weak" route="main_in_main_out" depart="2150.000000" departSpeed="0" color="1,1,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO886" type="weak" route="main_in_main_out" depart="2155.000000" departSpeed="0" color="1,1,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO887" type="weak" route="main_in_main_out" depart="2160.000000" departSpeed="0" color="1,1,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO888" type="strong" route="main_in_main_out" depart="2165.000000" departSpeed="0" color="1,0,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO889" type="weak" route="main_in_main_out" depart="2170.000000" departSpeed="0" color="1,1,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO890" type="weak" route="main_in_main_out" depart="2175.000000" departSpeed="0" color="1,1,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO891" type="weak" route="main_in_main_out" depart="2180.000000" departSpeed="0" color="1,1,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO892" type="weak" route="main_in_main_out" depart="2185.000000" departSpeed="0" color="1,1,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO893" type="strong" route="main_in_main_out" depart="2190.000000" departSpeed="0" color="1,0,0" departLane="1" tau = "2"/>
+<vehicle id="mali894" type="malicious" route="main_in_main_out" depart="2195.000000" departSpeed="0" color="204, 153, 255" departLane="1" tau = "2"/>
+<vehicle id="MIMO900" type="weak" route="main_in_main_out" depart="2200.000000" departSpeed="0" color="1,1,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO901" type="weak" route="main_in_main_out" depart="2205.000000" departSpeed="0" color="1,1,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO902" type="strong" route="main_in_main_out" depart="2210.000000" departSpeed="0" color="1,0,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO903" type="weak" route="main_in_main_out" depart="2215.000000" departSpeed="0" color="1,1,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO904" type="strong" route="main_in_main_out" depart="2220.000000" departSpeed="0" color="1,0,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO905" type="strong" route="main_in_main_out" depart="2225.000000" departSpeed="0" color="1,0,0" departLane="0" tau = "2"/>
+<vehicle id="mali906" type="malicious" route="main_in_main_out" depart="2230.000000" departSpeed="0" color="204, 153, 255" departLane="0" tau = "2"/>
+<vehicle id="mali912" type="malicious" route="main_in_main_out" depart="2235.000000" departSpeed="0" color="204, 153, 255" departLane="1" tau = "2"/>
+<vehicle id="MIMO918" type="strong" route="main_in_main_out" depart="2240.000000" departSpeed="0" color="1,0,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO919" type="strong" route="main_in_main_out" depart="2245.000000" departSpeed="0" color="1,0,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO920" type="weak" route="main_in_main_out" depart="2250.000000" departSpeed="0" color="1,1,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO921" type="weak" route="main_in_main_out" depart="2255.000000" departSpeed="0" color="1,1,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO922" type="strong" route="main_in_main_out" depart="2260.000000" departSpeed="0" color="1,0,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO923" type="weak" route="main_in_main_out" depart="2265.000000" departSpeed="0" color="1,1,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO924" type="strong" route="main_in_main_out" depart="2270.000000" departSpeed="0" color="1,0,0" departLane="1" tau = "2"/>
+<vehicle id="mali925" type="malicious" route="main_in_main_out" depart="2275.000000" departSpeed="0" color="204, 153, 255" departLane="1" tau = "2"/>
+<vehicle id="MIMO931" type="weak" route="main_in_main_out" depart="2280.000000" departSpeed="0" color="1,1,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO932" type="weak" route="main_in_main_out" depart="2285.000000" departSpeed="0" color="1,1,0" departLane="0" tau = "2"/>
+<vehicle id="mali933" type="malicious" route="main_in_main_out" depart="2290.000000" departSpeed="0" color="204, 153, 255" departLane="1" tau = "2"/>
+<vehicle id="MIMO939" type="weak" route="main_in_main_out" depart="2295.000000" departSpeed="0" color="1,1,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO940" type="weak" route="main_in_main_out" depart="2300.000000" departSpeed="0" color="1,1,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO941" type="weak" route="main_in_main_out" depart="2305.000000" departSpeed="0" color="1,1,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO942" type="weak" route="main_in_main_out" depart="2310.000000" departSpeed="0" color="1,1,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO943" type="weak" route="main_in_main_out" depart="2315.000000" departSpeed="0" color="1,1,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO944" type="weak" route="main_in_main_out" depart="2320.000000" departSpeed="0" color="1,1,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO945" type="weak" route="main_in_main_out" depart="2325.000000" departSpeed="0" color="1,1,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO946" type="weak" route="main_in_main_out" depart="2330.000000" departSpeed="0" color="1,1,0" departLane="1" tau = "2"/>
+<vehicle id="mali947" type="malicious" route="main_in_main_out" depart="2335.000000" departSpeed="0" color="204, 153, 255" departLane="0" tau = "2"/>
+<vehicle id="MIMO953" type="weak" route="main_in_main_out" depart="2340.000000" departSpeed="0" color="1,1,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO954" type="strong" route="main_in_main_out" depart="2345.000000" departSpeed="0" color="1,0,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO955" type="weak" route="main_in_main_out" depart="2350.000000" departSpeed="0" color="1,1,0" departLane="0" tau = "2"/>
+<vehicle id="mali956" type="malicious" route="main_in_main_out" depart="2355.000000" departSpeed="0" color="204, 153, 255" departLane="0" tau = "2"/>
+<vehicle id="MIMO962" type="weak" route="main_in_main_out" depart="2360.000000" departSpeed="0" color="1,1,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO963" type="weak" route="main_in_main_out" depart="2365.000000" departSpeed="0" color="1,1,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO964" type="weak" route="main_in_main_out" depart="2370.000000" departSpeed="0" color="1,1,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO965" type="weak" route="main_in_main_out" depart="2375.000000" departSpeed="0" color="1,1,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO966" type="strong" route="main_in_main_out" depart="2380.000000" departSpeed="0" color="1,0,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO967" type="weak" route="main_in_main_out" depart="2385.000000" departSpeed="0" color="1,1,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO968" type="strong" route="main_in_main_out" depart="2390.000000" departSpeed="0" color="1,0,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO969" type="weak" route="main_in_main_out" depart="2395.000000" departSpeed="0" color="1,1,0" departLane="1" tau = "2"/>
+<vehicle id="mali970" type="malicious" route="main_in_main_out" depart="2400.000000" departSpeed="0" color="204, 153, 255" departLane="1" tau = "2"/>
+<vehicle id="MIMO976" type="weak" route="main_in_main_out" depart="2405.000000" departSpeed="0" color="1,1,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO977" type="weak" route="main_in_main_out" depart="2410.000000" departSpeed="0" color="1,1,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO978" type="weak" route="main_in_main_out" depart="2415.000000" departSpeed="0" color="1,1,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO979" type="strong" route="main_in_main_out" depart="2420.000000" departSpeed="0" color="1,0,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO980" type="strong" route="main_in_main_out" depart="2425.000000" departSpeed="0" color="1,0,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO981" type="strong" route="main_in_main_out" depart="2430.000000" departSpeed="0" color="1,0,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO982" type="strong" route="main_in_main_out" depart="2435.000000" departSpeed="0" color="1,0,0" departLane="0" tau = "2"/>
+<vehicle id="mali983" type="malicious" route="main_in_main_out" depart="2440.000000" departSpeed="0" color="204, 153, 255" departLane="1" tau = "2"/>
+<vehicle id="MIMO989" type="weak" route="main_in_main_out" depart="2445.000000" departSpeed="0" color="1,1,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO990" type="weak" route="main_in_main_out" depart="2450.000000" departSpeed="0" color="1,1,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO991" type="weak" route="main_in_main_out" depart="2455.000000" departSpeed="0" color="1,1,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO992" type="strong" route="main_in_main_out" depart="2460.000000" departSpeed="0" color="1,0,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO993" type="strong" route="main_in_main_out" depart="2465.000000" departSpeed="0" color="1,0,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO994" type="weak" route="main_in_main_out" depart="2470.000000" departSpeed="0" color="1,1,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO995" type="weak" route="main_in_main_out" depart="2475.000000" departSpeed="0" color="1,1,0" departLane="0" tau = "2"/>
+<vehicle id="mali996" type="malicious" route="main_in_main_out" depart="2480.000000" departSpeed="0" color="204, 153, 255" departLane="1" tau = "2"/>
+<vehicle id="MIMO1002" type="strong" route="main_in_main_out" depart="2485.000000" departSpeed="0" color="1,0,0" departLane="1" tau = "2"/>
+<vehicle id="mali1003" type="malicious" route="main_in_main_out" depart="2490.000000" departSpeed="0" color="204, 153, 255" departLane="0" tau = "2"/>
+<vehicle id="mali1009" type="malicious" route="main_in_main_out" depart="2495.000000" departSpeed="0" color="204, 153, 255" departLane="1" tau = "2"/>
+<vehicle id="MIMO1015" type="strong" route="main_in_main_out" depart="2500.000000" departSpeed="0" color="1,0,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO1016" type="strong" route="main_in_main_out" depart="2505.000000" departSpeed="0" color="1,0,0" departLane="0" tau = "2"/>
+<vehicle id="mali1017" type="malicious" route="main_in_main_out" depart="2510.000000" departSpeed="0" color="204, 153, 255" departLane="1" tau = "2"/>
+<vehicle id="MIMO1023" type="weak" route="main_in_main_out" depart="2515.000000" departSpeed="0" color="1,1,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO1024" type="weak" route="main_in_main_out" depart="2520.000000" departSpeed="0" color="1,1,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO1025" type="weak" route="main_in_main_out" depart="2525.000000" departSpeed="0" color="1,1,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO1026" type="strong" route="main_in_main_out" depart="2530.000000" departSpeed="0" color="1,0,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO1027" type="weak" route="main_in_main_out" depart="2535.000000" departSpeed="0" color="1,1,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO1028" type="weak" route="main_in_main_out" depart="2540.000000" departSpeed="0" color="1,1,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO1029" type="strong" route="main_in_main_out" depart="2545.000000" departSpeed="0" color="1,0,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO1030" type="weak" route="main_in_main_out" depart="2550.000000" departSpeed="0" color="1,1,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO1031" type="weak" route="main_in_main_out" depart="2555.000000" departSpeed="0" color="1,1,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO1032" type="strong" route="main_in_main_out" depart="2560.000000" departSpeed="0" color="1,0,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO1033" type="strong" route="main_in_main_out" depart="2565.000000" departSpeed="0" color="1,0,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO1034" type="weak" route="main_in_main_out" depart="2570.000000" departSpeed="0" color="1,1,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO1035" type="weak" route="main_in_main_out" depart="2575.000000" departSpeed="0" color="1,1,0" departLane="0" tau = "2"/>
+<vehicle id="mali1036" type="malicious" route="main_in_main_out" depart="2580.000000" departSpeed="0" color="204, 153, 255" departLane="1" tau = "2"/>
+<vehicle id="MIMO1042" type="weak" route="main_in_main_out" depart="2585.000000" departSpeed="0" color="1,1,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO1043" type="strong" route="main_in_main_out" depart="2590.000000" departSpeed="0" color="1,0,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO1044" type="weak" route="main_in_main_out" depart="2595.000000" departSpeed="0" color="1,1,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO1045" type="weak" route="main_in_main_out" depart="2600.000000" departSpeed="0" color="1,1,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO1046" type="weak" route="main_in_main_out" depart="2605.000000" departSpeed="0" color="1,1,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO1047" type="weak" route="main_in_main_out" depart="2610.000000" departSpeed="0" color="1,1,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO1048" type="strong" route="main_in_main_out" depart="2615.000000" departSpeed="0" color="1,0,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO1049" type="weak" route="main_in_main_out" depart="2620.000000" departSpeed="0" color="1,1,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO1050" type="weak" route="main_in_main_out" depart="2625.000000" departSpeed="0" color="1,1,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO1051" type="weak" route="main_in_main_out" depart="2630.000000" departSpeed="0" color="1,1,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO1052" type="weak" route="main_in_main_out" depart="2635.000000" departSpeed="0" color="1,1,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO1053" type="strong" route="main_in_main_out" depart="2640.000000" departSpeed="0" color="1,0,0" departLane="1" tau = "2"/>
+<vehicle id="mali1054" type="malicious" route="main_in_main_out" depart="2645.000000" departSpeed="0" color="204, 153, 255" departLane="1" tau = "2"/>
+<vehicle id="mali1060" type="malicious" route="main_in_main_out" depart="2650.000000" departSpeed="0" color="204, 153, 255" departLane="0" tau = "2"/>
+<vehicle id="MIMO1066" type="weak" route="main_in_main_out" depart="2655.000000" departSpeed="0" color="1,1,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO1067" type="weak" route="main_in_main_out" depart="2660.000000" departSpeed="0" color="1,1,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO1068" type="weak" route="main_in_main_out" depart="2665.000000" departSpeed="0" color="1,1,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO1069" type="strong" route="main_in_main_out" depart="2670.000000" departSpeed="0" color="1,0,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO1070" type="weak" route="main_in_main_out" depart="2675.000000" departSpeed="0" color="1,1,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO1071" type="weak" route="main_in_main_out" depart="2680.000000" departSpeed="0" color="1,1,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO1072" type="weak" route="main_in_main_out" depart="2685.000000" departSpeed="0" color="1,1,0" departLane="0" tau = "2"/>
+<vehicle id="mali1073" type="malicious" route="main_in_main_out" depart="2690.000000" departSpeed="0" color="204, 153, 255" departLane="0" tau = "2"/>
+<vehicle id="MIMO1079" type="weak" route="main_in_main_out" depart="2695.000000" departSpeed="0" color="1,1,0" departLane="0" tau = "2"/>
+<vehicle id="mali1080" type="malicious" route="main_in_main_out" depart="2700.000000" departSpeed="0" color="204, 153, 255" departLane="0" tau = "2"/>
+<vehicle id="MIMO1086" type="strong" route="main_in_main_out" depart="2705.000000" departSpeed="0" color="1,0,0" departLane="1" tau = "2"/>
+<vehicle id="mali1087" type="malicious" route="main_in_main_out" depart="2710.000000" departSpeed="0" color="204, 153, 255" departLane="1" tau = "2"/>
+<vehicle id="MIMO1093" type="weak" route="main_in_main_out" depart="2715.000000" departSpeed="0" color="1,1,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO1094" type="strong" route="main_in_main_out" depart="2720.000000" departSpeed="0" color="1,0,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO1095" type="weak" route="main_in_main_out" depart="2725.000000" departSpeed="0" color="1,1,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO1096" type="weak" route="main_in_main_out" depart="2730.000000" departSpeed="0" color="1,1,0" departLane="0" tau = "2"/>
+<vehicle id="mali1097" type="malicious" route="main_in_main_out" depart="2735.000000" departSpeed="0" color="204, 153, 255" departLane="0" tau = "2"/>
+<vehicle id="MIMO1103" type="strong" route="main_in_main_out" depart="2740.000000" departSpeed="0" color="1,0,0" departLane="0" tau = "2"/>
+<vehicle id="mali1104" type="malicious" route="main_in_main_out" depart="2745.000000" departSpeed="0" color="204, 153, 255" departLane="0" tau = "2"/>
+<vehicle id="mali1110" type="malicious" route="main_in_main_out" depart="2750.000000" departSpeed="0" color="204, 153, 255" departLane="1" tau = "2"/>
+<vehicle id="MIMO1116" type="weak" route="main_in_main_out" depart="2755.000000" departSpeed="0" color="1,1,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO1117" type="weak" route="main_in_main_out" depart="2760.000000" departSpeed="0" color="1,1,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO1118" type="weak" route="main_in_main_out" depart="2765.000000" departSpeed="0" color="1,1,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO1119" type="weak" route="main_in_main_out" depart="2770.000000" departSpeed="0" color="1,1,0" departLane="0" tau = "2"/>
+<vehicle id="mali1120" type="malicious" route="main_in_main_out" depart="2775.000000" departSpeed="0" color="204, 153, 255" departLane="1" tau = "2"/>
+<vehicle id="MIMO1126" type="weak" route="main_in_main_out" depart="2780.000000" departSpeed="0" color="1,1,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO1127" type="strong" route="main_in_main_out" depart="2785.000000" departSpeed="0" color="1,0,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO1128" type="weak" route="main_in_main_out" depart="2790.000000" departSpeed="0" color="1,1,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO1129" type="weak" route="main_in_main_out" depart="2795.000000" departSpeed="0" color="1,1,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO1130" type="strong" route="main_in_main_out" depart="2800.000000" departSpeed="0" color="1,0,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO1131" type="weak" route="main_in_main_out" depart="2805.000000" departSpeed="0" color="1,1,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO1132" type="weak" route="main_in_main_out" depart="2810.000000" departSpeed="0" color="1,1,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO1133" type="strong" route="main_in_main_out" depart="2815.000000" departSpeed="0" color="1,0,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO1134" type="weak" route="main_in_main_out" depart="2820.000000" departSpeed="0" color="1,1,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO1135" type="weak" route="main_in_main_out" depart="2825.000000" departSpeed="0" color="1,1,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO1136" type="weak" route="main_in_main_out" depart="2830.000000" departSpeed="0" color="1,1,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO1137" type="strong" route="main_in_main_out" depart="2835.000000" departSpeed="0" color="1,0,0" departLane="1" tau = "2"/>
+<vehicle id="mali1138" type="malicious" route="main_in_main_out" depart="2840.000000" departSpeed="0" color="204, 153, 255" departLane="0" tau = "2"/>
+<vehicle id="MIMO1144" type="weak" route="main_in_main_out" depart="2845.000000" departSpeed="0" color="1,1,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO1145" type="weak" route="main_in_main_out" depart="2850.000000" departSpeed="0" color="1,1,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO1146" type="weak" route="main_in_main_out" depart="2855.000000" departSpeed="0" color="1,1,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO1147" type="weak" route="main_in_main_out" depart="2860.000000" departSpeed="0" color="1,1,0" departLane="1" tau = "2"/>
+<vehicle id="mali1148" type="malicious" route="main_in_main_out" depart="2865.000000" departSpeed="0" color="204, 153, 255" departLane="1" tau = "2"/>
+<vehicle id="MIMO1154" type="strong" route="main_in_main_out" depart="2870.000000" departSpeed="0" color="1,0,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO1155" type="weak" route="main_in_main_out" depart="2875.000000" departSpeed="0" color="1,1,0" departLane="1" tau = "2"/>
+<vehicle id="mali1156" type="malicious" route="main_in_main_out" depart="2880.000000" departSpeed="0" color="204, 153, 255" departLane="1" tau = "2"/>
+<vehicle id="MIMO1162" type="weak" route="main_in_main_out" depart="2885.000000" departSpeed="0" color="1,1,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO1163" type="weak" route="main_in_main_out" depart="2890.000000" departSpeed="0" color="1,1,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO1164" type="weak" route="main_in_main_out" depart="2895.000000" departSpeed="0" color="1,1,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO1165" type="weak" route="main_in_main_out" depart="2900.000000" departSpeed="0" color="1,1,0" departLane="1" tau = "2"/>
+<vehicle id="mali1166" type="malicious" route="main_in_main_out" depart="2905.000000" departSpeed="0" color="204, 153, 255" departLane="0" tau = "2"/>
+<vehicle id="MIMO1172" type="strong" route="main_in_main_out" depart="2910.000000" departSpeed="0" color="1,0,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO1173" type="weak" route="main_in_main_out" depart="2915.000000" departSpeed="0" color="1,1,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO1174" type="weak" route="main_in_main_out" depart="2920.000000" departSpeed="0" color="1,1,0" departLane="0" tau = "2"/>
+<vehicle id="mali1175" type="malicious" route="main_in_main_out" depart="2925.000000" departSpeed="0" color="204, 153, 255" departLane="1" tau = "2"/>
+<vehicle id="MIMO1181" type="weak" route="main_in_main_out" depart="2930.000000" departSpeed="0" color="1,1,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO1182" type="strong" route="main_in_main_out" depart="2935.000000" departSpeed="0" color="1,0,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO1183" type="weak" route="main_in_main_out" depart="2940.000000" departSpeed="0" color="1,1,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO1184" type="weak" route="main_in_main_out" depart="2945.000000" departSpeed="0" color="1,1,0" departLane="0" tau = "2"/>
+<vehicle id="mali1185" type="malicious" route="main_in_main_out" depart="2950.000000" departSpeed="0" color="204, 153, 255" departLane="0" tau = "2"/>
+<vehicle id="MIMO1191" type="weak" route="main_in_main_out" depart="2955.000000" departSpeed="0" color="1,1,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO1192" type="weak" route="main_in_main_out" depart="2960.000000" departSpeed="0" color="1,1,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO1193" type="weak" route="main_in_main_out" depart="2965.000000" departSpeed="0" color="1,1,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO1194" type="strong" route="main_in_main_out" depart="2970.000000" departSpeed="0" color="1,0,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO1195" type="strong" route="main_in_main_out" depart="2975.000000" departSpeed="0" color="1,0,0" departLane="0" tau = "2"/>
+<vehicle id="mali1196" type="malicious" route="main_in_main_out" depart="2980.000000" departSpeed="0" color="204, 153, 255" departLane="1" tau = "2"/>
+<vehicle id="MIMO1202" type="weak" route="main_in_main_out" depart="2985.000000" departSpeed="0" color="1,1,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO1203" type="weak" route="main_in_main_out" depart="2990.000000" departSpeed="0" color="1,1,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO1204" type="weak" route="main_in_main_out" depart="2995.000000" departSpeed="0" color="1,1,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO1205" type="strong" route="main_in_main_out" depart="3000.000000" departSpeed="0" color="1,0,0" departLane="1" tau = "2"/>
+<vehicle id="mali1206" type="malicious" route="main_in_main_out" depart="3005.000000" departSpeed="0" color="204, 153, 255" departLane="0" tau = "2"/>
+<vehicle id="MIMO1212" type="weak" route="main_in_main_out" depart="3010.000000" departSpeed="0" color="1,1,0" departLane="1" tau = "2"/>
+<vehicle id="mali1213" type="malicious" route="main_in_main_out" depart="3015.000000" departSpeed="0" color="204, 153, 255" departLane="1" tau = "2"/>
+<vehicle id="MIMO1219" type="strong" route="main_in_main_out" depart="3020.000000" departSpeed="0" color="1,0,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO1220" type="strong" route="main_in_main_out" depart="3025.000000" departSpeed="0" color="1,0,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO1221" type="weak" route="main_in_main_out" depart="3030.000000" departSpeed="0" color="1,1,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO1222" type="weak" route="main_in_main_out" depart="3035.000000" departSpeed="0" color="1,1,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO1223" type="weak" route="main_in_main_out" depart="3040.000000" departSpeed="0" color="1,1,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO1224" type="strong" route="main_in_main_out" depart="3045.000000" departSpeed="0" color="1,0,0" departLane="0" tau = "2"/>
+<vehicle id="mali1225" type="malicious" route="main_in_main_out" depart="3050.000000" departSpeed="0" color="204, 153, 255" departLane="1" tau = "2"/>
+<vehicle id="MIMO1231" type="weak" route="main_in_main_out" depart="3055.000000" departSpeed="0" color="1,1,0" departLane="0" tau = "2"/>
+<vehicle id="mali1232" type="malicious" route="main_in_main_out" depart="3060.000000" departSpeed="0" color="204, 153, 255" departLane="1" tau = "2"/>
+<vehicle id="MIMO1238" type="strong" route="main_in_main_out" depart="3065.000000" departSpeed="0" color="1,0,0" departLane="0" tau = "2"/>
+<vehicle id="mali1239" type="malicious" route="main_in_main_out" depart="3070.000000" departSpeed="0" color="204, 153, 255" departLane="1" tau = "2"/>
+<vehicle id="MIMO1245" type="weak" route="main_in_main_out" depart="3075.000000" departSpeed="0" color="1,1,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO1246" type="weak" route="main_in_main_out" depart="3080.000000" departSpeed="0" color="1,1,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO1247" type="strong" route="main_in_main_out" depart="3085.000000" departSpeed="0" color="1,0,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO1248" type="strong" route="main_in_main_out" depart="3090.000000" departSpeed="0" color="1,0,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO1249" type="weak" route="main_in_main_out" depart="3095.000000" departSpeed="0" color="1,1,0" departLane="1" tau = "2"/>
+<vehicle id="mali1250" type="malicious" route="main_in_main_out" depart="3100.000000" departSpeed="0" color="204, 153, 255" departLane="1" tau = "2"/>
+<vehicle id="MIMO1256" type="weak" route="main_in_main_out" depart="3105.000000" departSpeed="0" color="1,1,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO1257" type="weak" route="main_in_main_out" depart="3110.000000" departSpeed="0" color="1,1,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO1258" type="weak" route="main_in_main_out" depart="3115.000000" departSpeed="0" color="1,1,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO1259" type="strong" route="main_in_main_out" depart="3120.000000" departSpeed="0" color="1,0,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO1260" type="strong" route="main_in_main_out" depart="3125.000000" departSpeed="0" color="1,0,0" departLane="1" tau = "2"/>
+<vehicle id="mali1261" type="malicious" route="main_in_main_out" depart="3130.000000" departSpeed="0" color="204, 153, 255" departLane="1" tau = "2"/>
+<vehicle id="mali1267" type="malicious" route="main_in_main_out" depart="3135.000000" departSpeed="0" color="204, 153, 255" departLane="0" tau = "2"/>
+<vehicle id="MIMO1273" type="weak" route="main_in_main_out" depart="3140.000000" departSpeed="0" color="1,1,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO1274" type="weak" route="main_in_main_out" depart="3145.000000" departSpeed="0" color="1,1,0" departLane="1" tau = "2"/>
+<vehicle id="mali1275" type="malicious" route="main_in_main_out" depart="3150.000000" departSpeed="0" color="204, 153, 255" departLane="0" tau = "2"/>
+<vehicle id="MIMO1281" type="strong" route="main_in_main_out" depart="3155.000000" departSpeed="0" color="1,0,0" departLane="1" tau = "2"/>
+<vehicle id="mali1282" type="malicious" route="main_in_main_out" depart="3160.000000" departSpeed="0" color="204, 153, 255" departLane="1" tau = "2"/>
+<vehicle id="MIMO1288" type="strong" route="main_in_main_out" depart="3165.000000" departSpeed="0" color="1,0,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO1289" type="strong" route="main_in_main_out" depart="3170.000000" departSpeed="0" color="1,0,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO1290" type="weak" route="main_in_main_out" depart="3175.000000" departSpeed="0" color="1,1,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO1291" type="weak" route="main_in_main_out" depart="3180.000000" departSpeed="0" color="1,1,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO1292" type="strong" route="main_in_main_out" depart="3185.000000" departSpeed="0" color="1,0,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO1293" type="strong" route="main_in_main_out" depart="3190.000000" departSpeed="0" color="1,0,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO1294" type="weak" route="main_in_main_out" depart="3195.000000" departSpeed="0" color="1,1,0" departLane="1" tau = "2"/>
+<vehicle id="mali1295" type="malicious" route="main_in_main_out" depart="3200.000000" departSpeed="0" color="204, 153, 255" departLane="1" tau = "2"/>
+<vehicle id="mali1301" type="malicious" route="main_in_main_out" depart="3205.000000" departSpeed="0" color="204, 153, 255" departLane="0" tau = "2"/>
+<vehicle id="MIMO1307" type="weak" route="main_in_main_out" depart="3210.000000" departSpeed="0" color="1,1,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO1308" type="weak" route="main_in_main_out" depart="3215.000000" departSpeed="0" color="1,1,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO1309" type="strong" route="main_in_main_out" depart="3220.000000" departSpeed="0" color="1,0,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO1310" type="weak" route="main_in_main_out" depart="3225.000000" departSpeed="0" color="1,1,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO1311" type="weak" route="main_in_main_out" depart="3230.000000" departSpeed="0" color="1,1,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO1312" type="weak" route="main_in_main_out" depart="3235.000000" departSpeed="0" color="1,1,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO1313" type="weak" route="main_in_main_out" depart="3240.000000" departSpeed="0" color="1,1,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO1314" type="weak" route="main_in_main_out" depart="3245.000000" departSpeed="0" color="1,1,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO1315" type="weak" route="main_in_main_out" depart="3250.000000" departSpeed="0" color="1,1,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO1316" type="weak" route="main_in_main_out" depart="3255.000000" departSpeed="0" color="1,1,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO1317" type="weak" route="main_in_main_out" depart="3260.000000" departSpeed="0" color="1,1,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO1318" type="strong" route="main_in_main_out" depart="3265.000000" departSpeed="0" color="1,0,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO1319" type="strong" route="main_in_main_out" depart="3270.000000" departSpeed="0" color="1,0,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO1320" type="weak" route="main_in_main_out" depart="3275.000000" departSpeed="0" color="1,1,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO1321" type="strong" route="main_in_main_out" depart="3280.000000" departSpeed="0" color="1,0,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO1322" type="weak" route="main_in_main_out" depart="3285.000000" departSpeed="0" color="1,1,0" departLane="0" tau = "2"/>
+<vehicle id="mali1323" type="malicious" route="main_in_main_out" depart="3290.000000" departSpeed="0" color="204, 153, 255" departLane="1" tau = "2"/>
+<vehicle id="MIMO1329" type="weak" route="main_in_main_out" depart="3295.000000" departSpeed="0" color="1,1,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO1330" type="weak" route="main_in_main_out" depart="3300.000000" departSpeed="0" color="1,1,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO1331" type="weak" route="main_in_main_out" depart="3305.000000" departSpeed="0" color="1,1,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO1332" type="weak" route="main_in_main_out" depart="3310.000000" departSpeed="0" color="1,1,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO1333" type="weak" route="main_in_main_out" depart="3315.000000" departSpeed="0" color="1,1,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO1334" type="strong" route="main_in_main_out" depart="3320.000000" departSpeed="0" color="1,0,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO1335" type="strong" route="main_in_main_out" depart="3325.000000" departSpeed="0" color="1,0,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO1336" type="weak" route="main_in_main_out" depart="3330.000000" departSpeed="0" color="1,1,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO1337" type="weak" route="main_in_main_out" depart="3335.000000" departSpeed="0" color="1,1,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO1338" type="weak" route="main_in_main_out" depart="3340.000000" departSpeed="0" color="1,1,0" departLane="0" tau = "2"/>
+<vehicle id="mali1339" type="malicious" route="main_in_main_out" depart="3345.000000" departSpeed="0" color="204, 153, 255" departLane="1" tau = "2"/>
+<vehicle id="MIMO1345" type="weak" route="main_in_main_out" depart="3350.000000" departSpeed="0" color="1,1,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO1346" type="weak" route="main_in_main_out" depart="3355.000000" departSpeed="0" color="1,1,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO1347" type="strong" route="main_in_main_out" depart="3360.000000" departSpeed="0" color="1,0,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO1348" type="weak" route="main_in_main_out" depart="3365.000000" departSpeed="0" color="1,1,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO1349" type="weak" route="main_in_main_out" depart="3370.000000" departSpeed="0" color="1,1,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO1350" type="weak" route="main_in_main_out" depart="3375.000000" departSpeed="0" color="1,1,0" departLane="1" tau = "2"/>
+<vehicle id="mali1351" type="malicious" route="main_in_main_out" depart="3380.000000" departSpeed="0" color="204, 153, 255" departLane="1" tau = "2"/>
+<vehicle id="mali1357" type="malicious" route="main_in_main_out" depart="3385.000000" departSpeed="0" color="204, 153, 255" departLane="1" tau = "2"/>
+<vehicle id="mali1363" type="malicious" route="main_in_main_out" depart="3390.000000" departSpeed="0" color="204, 153, 255" departLane="1" tau = "2"/>
+<vehicle id="MIMO1369" type="strong" route="main_in_main_out" depart="3395.000000" departSpeed="0" color="1,0,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO1370" type="weak" route="main_in_main_out" depart="3400.000000" departSpeed="0" color="1,1,0" departLane="1" tau = "2"/>
+<vehicle id="mali1371" type="malicious" route="main_in_main_out" depart="3405.000000" departSpeed="0" color="204, 153, 255" departLane="0" tau = "2"/>
+<vehicle id="MIMO1377" type="weak" route="main_in_main_out" depart="3410.000000" departSpeed="0" color="1,1,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO1378" type="weak" route="main_in_main_out" depart="3415.000000" departSpeed="0" color="1,1,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO1379" type="weak" route="main_in_main_out" depart="3420.000000" departSpeed="0" color="1,1,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO1380" type="weak" route="main_in_main_out" depart="3425.000000" departSpeed="0" color="1,1,0" departLane="0" tau = "2"/>
+<vehicle id="mali1381" type="malicious" route="main_in_main_out" depart="3430.000000" departSpeed="0" color="204, 153, 255" departLane="0" tau = "2"/>
+<vehicle id="MIMO1387" type="weak" route="main_in_main_out" depart="3435.000000" departSpeed="0" color="1,1,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO1388" type="strong" route="main_in_main_out" depart="3440.000000" departSpeed="0" color="1,0,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO1389" type="weak" route="main_in_main_out" depart="3445.000000" departSpeed="0" color="1,1,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO1390" type="weak" route="main_in_main_out" depart="3450.000000" departSpeed="0" color="1,1,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO1391" type="weak" route="main_in_main_out" depart="3455.000000" departSpeed="0" color="1,1,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO1392" type="weak" route="main_in_main_out" depart="3460.000000" departSpeed="0" color="1,1,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO1393" type="weak" route="main_in_main_out" depart="3465.000000" departSpeed="0" color="1,1,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO1394" type="weak" route="main_in_main_out" depart="3470.000000" departSpeed="0" color="1,1,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO1395" type="weak" route="main_in_main_out" depart="3475.000000" departSpeed="0" color="1,1,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO1396" type="strong" route="main_in_main_out" depart="3480.000000" departSpeed="0" color="1,0,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO1397" type="strong" route="main_in_main_out" depart="3485.000000" departSpeed="0" color="1,0,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO1398" type="weak" route="main_in_main_out" depart="3490.000000" departSpeed="0" color="1,1,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO1399" type="weak" route="main_in_main_out" depart="3495.000000" departSpeed="0" color="1,1,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO1400" type="strong" route="main_in_main_out" depart="3500.000000" departSpeed="0" color="1,0,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO1401" type="weak" route="main_in_main_out" depart="3505.000000" departSpeed="0" color="1,1,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO1402" type="weak" route="main_in_main_out" depart="3510.000000" departSpeed="0" color="1,1,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO1403" type="weak" route="main_in_main_out" depart="3515.000000" departSpeed="0" color="1,1,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO1404" type="strong" route="main_in_main_out" depart="3520.000000" departSpeed="0" color="1,0,0" departLane="0" tau = "2"/>
+<vehicle id="mali1405" type="malicious" route="main_in_main_out" depart="3525.000000" departSpeed="0" color="204, 153, 255" departLane="1" tau = "2"/>
+<vehicle id="mali1411" type="malicious" route="main_in_main_out" depart="3530.000000" departSpeed="0" color="204, 153, 255" departLane="0" tau = "2"/>
+<vehicle id="mali1417" type="malicious" route="main_in_main_out" depart="3535.000000" departSpeed="0" color="204, 153, 255" departLane="1" tau = "2"/>
+<vehicle id="mali1423" type="malicious" route="main_in_main_out" depart="3540.000000" departSpeed="0" color="204, 153, 255" departLane="1" tau = "2"/>
+<vehicle id="MIMO1429" type="weak" route="main_in_main_out" depart="3545.000000" departSpeed="0" color="1,1,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO1430" type="weak" route="main_in_main_out" depart="3550.000000" departSpeed="0" color="1,1,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO1431" type="strong" route="main_in_main_out" depart="3555.000000" departSpeed="0" color="1,0,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO1432" type="strong" route="main_in_main_out" depart="3560.000000" departSpeed="0" color="1,0,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO1433" type="weak" route="main_in_main_out" depart="3565.000000" departSpeed="0" color="1,1,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO1434" type="strong" route="main_in_main_out" depart="3570.000000" departSpeed="0" color="1,0,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO1435" type="weak" route="main_in_main_out" depart="3575.000000" departSpeed="0" color="1,1,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO1436" type="strong" route="main_in_main_out" depart="3580.000000" departSpeed="0" color="1,0,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO1437" type="weak" route="main_in_main_out" depart="3585.000000" departSpeed="0" color="1,1,0" departLane="1" tau = "2"/>
+<vehicle id="mali1438" type="malicious" route="main_in_main_out" depart="3590.000000" departSpeed="0" color="204, 153, 255" departLane="1" tau = "2"/>
+<vehicle id="MIMO1444" type="strong" route="main_in_main_out" depart="3595.000000" departSpeed="0" color="1,0,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO1445" type="weak" route="main_in_main_out" depart="3600.000000" departSpeed="0" color="1,1,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO1446" type="weak" route="main_in_main_out" depart="3605.000000" departSpeed="0" color="1,1,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO1447" type="weak" route="main_in_main_out" depart="3610.000000" departSpeed="0" color="1,1,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO1448" type="weak" route="main_in_main_out" depart="3615.000000" departSpeed="0" color="1,1,0" departLane="0" tau = "2"/>
+<vehicle id="mali1449" type="malicious" route="main_in_main_out" depart="3620.000000" departSpeed="0" color="204, 153, 255" departLane="0" tau = "2"/>
+<vehicle id="MIMO1455" type="strong" route="main_in_main_out" depart="3625.000000" departSpeed="0" color="1,0,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO1456" type="strong" route="main_in_main_out" depart="3630.000000" departSpeed="0" color="1,0,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO1457" type="weak" route="main_in_main_out" depart="3635.000000" departSpeed="0" color="1,1,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO1458" type="weak" route="main_in_main_out" depart="3640.000000" departSpeed="0" color="1,1,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO1459" type="weak" route="main_in_main_out" depart="3645.000000" departSpeed="0" color="1,1,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO1460" type="strong" route="main_in_main_out" depart="3650.000000" departSpeed="0" color="1,0,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO1461" type="weak" route="main_in_main_out" depart="3655.000000" departSpeed="0" color="1,1,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO1462" type="weak" route="main_in_main_out" depart="3660.000000" departSpeed="0" color="1,1,0" departLane="0" tau = "2"/>
+<vehicle id="mali1463" type="malicious" route="main_in_main_out" depart="3665.000000" departSpeed="0" color="204, 153, 255" departLane="0" tau = "2"/>
+<vehicle id="MIMO1469" type="weak" route="main_in_main_out" depart="3670.000000" departSpeed="0" color="1,1,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO1470" type="weak" route="main_in_main_out" depart="3675.000000" departSpeed="0" color="1,1,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO1471" type="strong" route="main_in_main_out" depart="3680.000000" departSpeed="0" color="1,0,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO1472" type="weak" route="main_in_main_out" depart="3685.000000" departSpeed="0" color="1,1,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO1473" type="weak" route="main_in_main_out" depart="3690.000000" departSpeed="0" color="1,1,0" departLane="0" tau = "2"/>
+<vehicle id="mali1474" type="malicious" route="main_in_main_out" depart="3695.000000" departSpeed="0" color="204, 153, 255" departLane="1" tau = "2"/>
+<vehicle id="MIMO1480" type="weak" route="main_in_main_out" depart="3700.000000" departSpeed="0" color="1,1,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO1481" type="weak" route="main_in_main_out" depart="3705.000000" departSpeed="0" color="1,1,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO1482" type="weak" route="main_in_main_out" depart="3710.000000" departSpeed="0" color="1,1,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO1483" type="weak" route="main_in_main_out" depart="3715.000000" departSpeed="0" color="1,1,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO1484" type="strong" route="main_in_main_out" depart="3720.000000" departSpeed="0" color="1,0,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO1485" type="weak" route="main_in_main_out" depart="3725.000000" departSpeed="0" color="1,1,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO1486" type="weak" route="main_in_main_out" depart="3730.000000" departSpeed="0" color="1,1,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO1487" type="strong" route="main_in_main_out" depart="3735.000000" departSpeed="0" color="1,0,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO1488" type="strong" route="main_in_main_out" depart="3740.000000" departSpeed="0" color="1,0,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO1489" type="strong" route="main_in_main_out" depart="3745.000000" departSpeed="0" color="1,0,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO1490" type="weak" route="main_in_main_out" depart="3750.000000" departSpeed="0" color="1,1,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO1491" type="weak" route="main_in_main_out" depart="3755.000000" departSpeed="0" color="1,1,0" departLane="1" tau = "2"/>
+<vehicle id="mali1492" type="malicious" route="main_in_main_out" depart="3760.000000" departSpeed="0" color="204, 153, 255" departLane="1" tau = "2"/>
+<vehicle id="MIMO1498" type="strong" route="main_in_main_out" depart="3765.000000" departSpeed="0" color="1,0,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO1499" type="weak" route="main_in_main_out" depart="3770.000000" departSpeed="0" color="1,1,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO1500" type="weak" route="main_in_main_out" depart="3775.000000" departSpeed="0" color="1,1,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO1501" type="weak" route="main_in_main_out" depart="3780.000000" departSpeed="0" color="1,1,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO1502" type="strong" route="main_in_main_out" depart="3785.000000" departSpeed="0" color="1,0,0" departLane="0" tau = "2"/>
+<vehicle id="mali1503" type="malicious" route="main_in_main_out" depart="3790.000000" departSpeed="0" color="204, 153, 255" departLane="0" tau = "2"/>
+<vehicle id="mali1509" type="malicious" route="main_in_main_out" depart="3795.000000" departSpeed="0" color="204, 153, 255" departLane="1" tau = "2"/>
+<vehicle id="mali1515" type="malicious" route="main_in_main_out" depart="3800.000000" departSpeed="0" color="204, 153, 255" departLane="1" tau = "2"/>
+<vehicle id="MIMO1521" type="weak" route="main_in_main_out" depart="3805.000000" departSpeed="0" color="1,1,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO1522" type="weak" route="main_in_main_out" depart="3810.000000" departSpeed="0" color="1,1,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO1523" type="strong" route="main_in_main_out" depart="3815.000000" departSpeed="0" color="1,0,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO1524" type="strong" route="main_in_main_out" depart="3820.000000" departSpeed="0" color="1,0,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO1525" type="weak" route="main_in_main_out" depart="3825.000000" departSpeed="0" color="1,1,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO1526" type="strong" route="main_in_main_out" depart="3830.000000" departSpeed="0" color="1,0,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO1527" type="weak" route="main_in_main_out" depart="3835.000000" departSpeed="0" color="1,1,0" departLane="0" tau = "2"/>
+<vehicle id="mali1528" type="malicious" route="main_in_main_out" depart="3840.000000" departSpeed="0" color="204, 153, 255" departLane="1" tau = "2"/>
+<vehicle id="mali1534" type="malicious" route="main_in_main_out" depart="3845.000000" departSpeed="0" color="204, 153, 255" departLane="1" tau = "2"/>
+<vehicle id="MIMO1540" type="weak" route="main_in_main_out" depart="3850.000000" departSpeed="0" color="1,1,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO1541" type="weak" route="main_in_main_out" depart="3855.000000" departSpeed="0" color="1,1,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO1542" type="weak" route="main_in_main_out" depart="3860.000000" departSpeed="0" color="1,1,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO1543" type="weak" route="main_in_main_out" depart="3865.000000" departSpeed="0" color="1,1,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO1544" type="weak" route="main_in_main_out" depart="3870.000000" departSpeed="0" color="1,1,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO1545" type="weak" route="main_in_main_out" depart="3875.000000" departSpeed="0" color="1,1,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO1546" type="weak" route="main_in_main_out" depart="3880.000000" departSpeed="0" color="1,1,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO1547" type="weak" route="main_in_main_out" depart="3885.000000" departSpeed="0" color="1,1,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO1548" type="weak" route="main_in_main_out" depart="3890.000000" departSpeed="0" color="1,1,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO1549" type="weak" route="main_in_main_out" depart="3895.000000" departSpeed="0" color="1,1,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO1550" type="strong" route="main_in_main_out" depart="3900.000000" departSpeed="0" color="1,0,0" departLane="0" tau = "2"/>
+<vehicle id="mali1551" type="malicious" route="main_in_main_out" depart="3905.000000" departSpeed="0" color="204, 153, 255" departLane="0" tau = "2"/>
+<vehicle id="MIMO1557" type="weak" route="main_in_main_out" depart="3910.000000" departSpeed="0" color="1,1,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO1558" type="weak" route="main_in_main_out" depart="3915.000000" departSpeed="0" color="1,1,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO1559" type="weak" route="main_in_main_out" depart="3920.000000" departSpeed="0" color="1,1,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO1560" type="strong" route="main_in_main_out" depart="3925.000000" departSpeed="0" color="1,0,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO1561" type="weak" route="main_in_main_out" depart="3930.000000" departSpeed="0" color="1,1,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO1562" type="weak" route="main_in_main_out" depart="3935.000000" departSpeed="0" color="1,1,0" departLane="1" tau = "2"/>
+<vehicle id="mali1563" type="malicious" route="main_in_main_out" depart="3940.000000" departSpeed="0" color="204, 153, 255" departLane="1" tau = "2"/>
+<vehicle id="MIMO1569" type="strong" route="main_in_main_out" depart="3945.000000" departSpeed="0" color="1,0,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO1570" type="strong" route="main_in_main_out" depart="3950.000000" departSpeed="0" color="1,0,0" departLane="1" tau = "2"/>
+<vehicle id="mali1571" type="malicious" route="main_in_main_out" depart="3955.000000" departSpeed="0" color="204, 153, 255" departLane="0" tau = "2"/>
+<vehicle id="MIMO1577" type="strong" route="main_in_main_out" depart="3960.000000" departSpeed="0" color="1,0,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO1578" type="strong" route="main_in_main_out" depart="3965.000000" departSpeed="0" color="1,0,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO1579" type="weak" route="main_in_main_out" depart="3970.000000" departSpeed="0" color="1,1,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO1580" type="weak" route="main_in_main_out" depart="3975.000000" departSpeed="0" color="1,1,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO1581" type="strong" route="main_in_main_out" depart="3980.000000" departSpeed="0" color="1,0,0" departLane="0" tau = "2"/>
+<vehicle id="mali1582" type="malicious" route="main_in_main_out" depart="3985.000000" departSpeed="0" color="204, 153, 255" departLane="0" tau = "2"/>
+<vehicle id="MIMO1588" type="weak" route="main_in_main_out" depart="3990.000000" departSpeed="0" color="1,1,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO1589" type="strong" route="main_in_main_out" depart="3995.000000" departSpeed="0" color="1,0,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO1590" type="weak" route="main_in_main_out" depart="4000.000000" departSpeed="0" color="1,1,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO1591" type="strong" route="main_in_main_out" depart="4005.000000" departSpeed="0" color="1,0,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO1592" type="weak" route="main_in_main_out" depart="4010.000000" departSpeed="0" color="1,1,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO1593" type="weak" route="main_in_main_out" depart="4015.000000" departSpeed="0" color="1,1,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO1594" type="weak" route="main_in_main_out" depart="4020.000000" departSpeed="0" color="1,1,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO1595" type="weak" route="main_in_main_out" depart="4025.000000" departSpeed="0" color="1,1,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO1596" type="weak" route="main_in_main_out" depart="4030.000000" departSpeed="0" color="1,1,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO1597" type="weak" route="main_in_main_out" depart="4035.000000" departSpeed="0" color="1,1,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO1598" type="strong" route="main_in_main_out" depart="4040.000000" departSpeed="0" color="1,0,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO1599" type="weak" route="main_in_main_out" depart="4045.000000" departSpeed="0" color="1,1,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO1600" type="strong" route="main_in_main_out" depart="4050.000000" departSpeed="0" color="1,0,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO1601" type="weak" route="main_in_main_out" depart="4055.000000" departSpeed="0" color="1,1,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO1602" type="weak" route="main_in_main_out" depart="4060.000000" departSpeed="0" color="1,1,0" departLane="0" tau = "2"/>
+<vehicle id="mali1603" type="malicious" route="main_in_main_out" depart="4065.000000" departSpeed="0" color="204, 153, 255" departLane="0" tau = "2"/>
+<vehicle id="MIMO1609" type="weak" route="main_in_main_out" depart="4070.000000" departSpeed="0" color="1,1,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO1610" type="weak" route="main_in_main_out" depart="4075.000000" departSpeed="0" color="1,1,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO1611" type="strong" route="main_in_main_out" depart="4080.000000" departSpeed="0" color="1,0,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO1612" type="strong" route="main_in_main_out" depart="4085.000000" departSpeed="0" color="1,0,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO1613" type="strong" route="main_in_main_out" depart="4090.000000" departSpeed="0" color="1,0,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO1614" type="strong" route="main_in_main_out" depart="4095.000000" departSpeed="0" color="1,0,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO1615" type="weak" route="main_in_main_out" depart="4100.000000" departSpeed="0" color="1,1,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO1616" type="strong" route="main_in_main_out" depart="4105.000000" departSpeed="0" color="1,0,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO1617" type="weak" route="main_in_main_out" depart="4110.000000" departSpeed="0" color="1,1,0" departLane="0" tau = "2"/>
+<vehicle id="mali1618" type="malicious" route="main_in_main_out" depart="4115.000000" departSpeed="0" color="204, 153, 255" departLane="1" tau = "2"/>
+<vehicle id="MIMO1624" type="weak" route="main_in_main_out" depart="4120.000000" departSpeed="0" color="1,1,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO1625" type="weak" route="main_in_main_out" depart="4125.000000" departSpeed="0" color="1,1,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO1626" type="weak" route="main_in_main_out" depart="4130.000000" departSpeed="0" color="1,1,0" departLane="1" tau = "2"/>
+<vehicle id="mali1627" type="malicious" route="main_in_main_out" depart="4135.000000" departSpeed="0" color="204, 153, 255" departLane="1" tau = "2"/>
+<vehicle id="MIMO1633" type="strong" route="main_in_main_out" depart="4140.000000" departSpeed="0" color="1,0,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO1634" type="strong" route="main_in_main_out" depart="4145.000000" departSpeed="0" color="1,0,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO1635" type="weak" route="main_in_main_out" depart="4150.000000" departSpeed="0" color="1,1,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO1636" type="strong" route="main_in_main_out" depart="4155.000000" departSpeed="0" color="1,0,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO1637" type="weak" route="main_in_main_out" depart="4160.000000" departSpeed="0" color="1,1,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO1638" type="weak" route="main_in_main_out" depart="4165.000000" departSpeed="0" color="1,1,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO1639" type="weak" route="main_in_main_out" depart="4170.000000" departSpeed="0" color="1,1,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO1640" type="weak" route="main_in_main_out" depart="4175.000000" departSpeed="0" color="1,1,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO1641" type="strong" route="main_in_main_out" depart="4180.000000" departSpeed="0" color="1,0,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO1642" type="weak" route="main_in_main_out" depart="4185.000000" departSpeed="0" color="1,1,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO1643" type="weak" route="main_in_main_out" depart="4190.000000" departSpeed="0" color="1,1,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO1644" type="weak" route="main_in_main_out" depart="4195.000000" departSpeed="0" color="1,1,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO1645" type="weak" route="main_in_main_out" depart="4200.000000" departSpeed="0" color="1,1,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO1646" type="strong" route="main_in_main_out" depart="4205.000000" departSpeed="0" color="1,0,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO1647" type="strong" route="main_in_main_out" depart="4210.000000" departSpeed="0" color="1,0,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO1648" type="weak" route="main_in_main_out" depart="4215.000000" departSpeed="0" color="1,1,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO1649" type="weak" route="main_in_main_out" depart="4220.000000" departSpeed="0" color="1,1,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO1650" type="weak" route="main_in_main_out" depart="4225.000000" departSpeed="0" color="1,1,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO1651" type="weak" route="main_in_main_out" depart="4230.000000" departSpeed="0" color="1,1,0" departLane="1" tau = "2"/>
+<vehicle id="mali1652" type="malicious" route="main_in_main_out" depart="4235.000000" departSpeed="0" color="204, 153, 255" departLane="0" tau = "2"/>
+<vehicle id="MIMO1658" type="strong" route="main_in_main_out" depart="4240.000000" departSpeed="0" color="1,0,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO1659" type="weak" route="main_in_main_out" depart="4245.000000" departSpeed="0" color="1,1,0" departLane="1" tau = "2"/>
+<vehicle id="mali1660" type="malicious" route="main_in_main_out" depart="4250.000000" departSpeed="0" color="204, 153, 255" departLane="1" tau = "2"/>
+<vehicle id="MIMO1666" type="weak" route="main_in_main_out" depart="4255.000000" departSpeed="0" color="1,1,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO1667" type="weak" route="main_in_main_out" depart="4260.000000" departSpeed="0" color="1,1,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO1668" type="strong" route="main_in_main_out" depart="4265.000000" departSpeed="0" color="1,0,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO1669" type="strong" route="main_in_main_out" depart="4270.000000" departSpeed="0" color="1,0,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO1670" type="weak" route="main_in_main_out" depart="4275.000000" departSpeed="0" color="1,1,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO1671" type="weak" route="main_in_main_out" depart="4280.000000" departSpeed="0" color="1,1,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO1672" type="strong" route="main_in_main_out" depart="4285.000000" departSpeed="0" color="1,0,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO1673" type="weak" route="main_in_main_out" depart="4290.000000" departSpeed="0" color="1,1,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO1674" type="weak" route="main_in_main_out" depart="4295.000000" departSpeed="0" color="1,1,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO1675" type="weak" route="main_in_main_out" depart="4300.000000" departSpeed="0" color="1,1,0" departLane="1" tau = "2"/>
+<vehicle id="mali1676" type="malicious" route="main_in_main_out" depart="4305.000000" departSpeed="0" color="204, 153, 255" departLane="1" tau = "2"/>
+<vehicle id="MIMO1682" type="weak" route="main_in_main_out" depart="4310.000000" departSpeed="0" color="1,1,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO1683" type="strong" route="main_in_main_out" depart="4315.000000" departSpeed="0" color="1,0,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO1684" type="weak" route="main_in_main_out" depart="4320.000000" departSpeed="0" color="1,1,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO1685" type="strong" route="main_in_main_out" depart="4325.000000" departSpeed="0" color="1,0,0" departLane="0" tau = "2"/>
+<vehicle id="mali1686" type="malicious" route="main_in_main_out" depart="4330.000000" departSpeed="0" color="204, 153, 255" departLane="0" tau = "2"/>
+<vehicle id="MIMO1692" type="strong" route="main_in_main_out" depart="4335.000000" departSpeed="0" color="1,0,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO1693" type="strong" route="main_in_main_out" depart="4340.000000" departSpeed="0" color="1,0,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO1694" type="weak" route="main_in_main_out" depart="4345.000000" departSpeed="0" color="1,1,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO1695" type="strong" route="main_in_main_out" depart="4350.000000" departSpeed="0" color="1,0,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO1696" type="weak" route="main_in_main_out" depart="4355.000000" departSpeed="0" color="1,1,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO1697" type="strong" route="main_in_main_out" depart="4360.000000" departSpeed="0" color="1,0,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO1698" type="weak" route="main_in_main_out" depart="4365.000000" departSpeed="0" color="1,1,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO1699" type="strong" route="main_in_main_out" depart="4370.000000" departSpeed="0" color="1,0,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO1700" type="weak" route="main_in_main_out" depart="4375.000000" departSpeed="0" color="1,1,0" departLane="0" tau = "2"/>
+<vehicle id="mali1701" type="malicious" route="main_in_main_out" depart="4380.000000" departSpeed="0" color="204, 153, 255" departLane="1" tau = "2"/>
+<vehicle id="MIMO1707" type="strong" route="main_in_main_out" depart="4385.000000" departSpeed="0" color="1,0,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO1708" type="weak" route="main_in_main_out" depart="4390.000000" departSpeed="0" color="1,1,0" departLane="0" tau = "2"/>
+<vehicle id="mali1709" type="malicious" route="main_in_main_out" depart="4395.000000" departSpeed="0" color="204, 153, 255" departLane="1" tau = "2"/>
+<vehicle id="MIMO1715" type="weak" route="main_in_main_out" depart="4400.000000" departSpeed="0" color="1,1,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO1716" type="strong" route="main_in_main_out" depart="4405.000000" departSpeed="0" color="1,0,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO1717" type="strong" route="main_in_main_out" depart="4410.000000" departSpeed="0" color="1,0,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO1718" type="weak" route="main_in_main_out" depart="4415.000000" departSpeed="0" color="1,1,0" departLane="1" tau = "2"/>
+<vehicle id="mali1719" type="malicious" route="main_in_main_out" depart="4420.000000" departSpeed="0" color="204, 153, 255" departLane="0" tau = "2"/>
+<vehicle id="mali1725" type="malicious" route="main_in_main_out" depart="4425.000000" departSpeed="0" color="204, 153, 255" departLane="1" tau = "2"/>
+<vehicle id="mali1731" type="malicious" route="main_in_main_out" depart="4430.000000" departSpeed="0" color="204, 153, 255" departLane="1" tau = "2"/>
+<vehicle id="MIMO1737" type="weak" route="main_in_main_out" depart="4435.000000" departSpeed="0" color="1,1,0" departLane="0" tau = "2"/>
+<vehicle id="mali1738" type="malicious" route="main_in_main_out" depart="4440.000000" departSpeed="0" color="204, 153, 255" departLane="0" tau = "2"/>
+<vehicle id="MIMO1744" type="strong" route="main_in_main_out" depart="4445.000000" departSpeed="0" color="1,0,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO1745" type="strong" route="main_in_main_out" depart="4450.000000" departSpeed="0" color="1,0,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO1746" type="weak" route="main_in_main_out" depart="4455.000000" departSpeed="0" color="1,1,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO1747" type="strong" route="main_in_main_out" depart="4460.000000" departSpeed="0" color="1,0,0" departLane="1" tau = "2"/>
+<vehicle id="mali1748" type="malicious" route="main_in_main_out" depart="4465.000000" departSpeed="0" color="204, 153, 255" departLane="1" tau = "2"/>
+<vehicle id="MIMO1754" type="weak" route="main_in_main_out" depart="4470.000000" departSpeed="0" color="1,1,0" departLane="1" tau = "2"/>
+<vehicle id="mali1755" type="malicious" route="main_in_main_out" depart="4475.000000" departSpeed="0" color="204, 153, 255" departLane="0" tau = "2"/>
+<vehicle id="mali1761" type="malicious" route="main_in_main_out" depart="4480.000000" departSpeed="0" color="204, 153, 255" departLane="0" tau = "2"/>
+<vehicle id="mali1767" type="malicious" route="main_in_main_out" depart="4485.000000" departSpeed="0" color="204, 153, 255" departLane="0" tau = "2"/>
+<vehicle id="mali1773" type="malicious" route="main_in_main_out" depart="4490.000000" departSpeed="0" color="204, 153, 255" departLane="1" tau = "2"/>
+<vehicle id="MIMO1779" type="weak" route="main_in_main_out" depart="4495.000000" departSpeed="0" color="1,1,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO1780" type="weak" route="main_in_main_out" depart="4500.000000" departSpeed="0" color="1,1,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO1781" type="strong" route="main_in_main_out" depart="4505.000000" departSpeed="0" color="1,0,0" departLane="1" tau = "2"/>
+<vehicle id="mali1782" type="malicious" route="main_in_main_out" depart="4510.000000" departSpeed="0" color="204, 153, 255" departLane="0" tau = "2"/>
+<vehicle id="MIMO1788" type="weak" route="main_in_main_out" depart="4515.000000" departSpeed="0" color="1,1,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO1789" type="weak" route="main_in_main_out" depart="4520.000000" departSpeed="0" color="1,1,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO1790" type="weak" route="main_in_main_out" depart="4525.000000" departSpeed="0" color="1,1,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO1791" type="weak" route="main_in_main_out" depart="4530.000000" departSpeed="0" color="1,1,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO1792" type="weak" route="main_in_main_out" depart="4535.000000" departSpeed="0" color="1,1,0" departLane="0" tau = "2"/>
+<vehicle id="mali1793" type="malicious" route="main_in_main_out" depart="4540.000000" departSpeed="0" color="204, 153, 255" departLane="0" tau = "2"/>
+<vehicle id="MIMO1799" type="weak" route="main_in_main_out" depart="4545.000000" departSpeed="0" color="1,1,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO1800" type="weak" route="main_in_main_out" depart="4550.000000" departSpeed="0" color="1,1,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO1801" type="weak" route="main_in_main_out" depart="4555.000000" departSpeed="0" color="1,1,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO1802" type="strong" route="main_in_main_out" depart="4560.000000" departSpeed="0" color="1,0,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO1803" type="weak" route="main_in_main_out" depart="4565.000000" departSpeed="0" color="1,1,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO1804" type="weak" route="main_in_main_out" depart="4570.000000" departSpeed="0" color="1,1,0" departLane="0" tau = "2"/>
+<vehicle id="mali1805" type="malicious" route="main_in_main_out" depart="4575.000000" departSpeed="0" color="204, 153, 255" departLane="0" tau = "2"/>
+<vehicle id="MIMO1811" type="weak" route="main_in_main_out" depart="4580.000000" departSpeed="0" color="1,1,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO1812" type="weak" route="main_in_main_out" depart="4585.000000" departSpeed="0" color="1,1,0" departLane="0" tau = "2"/>
+<vehicle id="mali1813" type="malicious" route="main_in_main_out" depart="4590.000000" departSpeed="0" color="204, 153, 255" departLane="0" tau = "2"/>
+<vehicle id="MIMO1819" type="weak" route="main_in_main_out" depart="4595.000000" departSpeed="0" color="1,1,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO1820" type="weak" route="main_in_main_out" depart="4600.000000" departSpeed="0" color="1,1,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO1821" type="weak" route="main_in_main_out" depart="4605.000000" departSpeed="0" color="1,1,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO1822" type="weak" route="main_in_main_out" depart="4610.000000" departSpeed="0" color="1,1,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO1823" type="strong" route="main_in_main_out" depart="4615.000000" departSpeed="0" color="1,0,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO1824" type="strong" route="main_in_main_out" depart="4620.000000" departSpeed="0" color="1,0,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO1825" type="weak" route="main_in_main_out" depart="4625.000000" departSpeed="0" color="1,1,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO1826" type="weak" route="main_in_main_out" depart="4630.000000" departSpeed="0" color="1,1,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO1827" type="weak" route="main_in_main_out" depart="4635.000000" departSpeed="0" color="1,1,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO1828" type="weak" route="main_in_main_out" depart="4640.000000" departSpeed="0" color="1,1,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO1829" type="weak" route="main_in_main_out" depart="4645.000000" departSpeed="0" color="1,1,0" departLane="1" tau = "2"/>
+<vehicle id="mali1830" type="malicious" route="main_in_main_out" depart="4650.000000" departSpeed="0" color="204, 153, 255" departLane="0" tau = "2"/>
+<vehicle id="MIMO1836" type="weak" route="main_in_main_out" depart="4655.000000" departSpeed="0" color="1,1,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO1837" type="weak" route="main_in_main_out" depart="4660.000000" departSpeed="0" color="1,1,0" departLane="1" tau = "2"/>
+<vehicle id="mali1838" type="malicious" route="main_in_main_out" depart="4665.000000" departSpeed="0" color="204, 153, 255" departLane="1" tau = "2"/>
+<vehicle id="MIMO1844" type="weak" route="main_in_main_out" depart="4670.000000" departSpeed="0" color="1,1,0" departLane="0" tau = "2"/>
+<vehicle id="mali1845" type="malicious" route="main_in_main_out" depart="4675.000000" departSpeed="0" color="204, 153, 255" departLane="1" tau = "2"/>
+<vehicle id="mali1851" type="malicious" route="main_in_main_out" depart="4680.000000" departSpeed="0" color="204, 153, 255" departLane="0" tau = "2"/>
+<vehicle id="MIMO1857" type="strong" route="main_in_main_out" depart="4685.000000" departSpeed="0" color="1,0,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO1858" type="weak" route="main_in_main_out" depart="4690.000000" departSpeed="0" color="1,1,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO1859" type="weak" route="main_in_main_out" depart="4695.000000" departSpeed="0" color="1,1,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO1860" type="weak" route="main_in_main_out" depart="4700.000000" departSpeed="0" color="1,1,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO1861" type="weak" route="main_in_main_out" depart="4705.000000" departSpeed="0" color="1,1,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO1862" type="strong" route="main_in_main_out" depart="4710.000000" departSpeed="0" color="1,0,0" departLane="0" tau = "2"/>
+<vehicle id="mali1863" type="malicious" route="main_in_main_out" depart="4715.000000" departSpeed="0" color="204, 153, 255" departLane="0" tau = "2"/>
+<vehicle id="MIMO1869" type="weak" route="main_in_main_out" depart="4720.000000" departSpeed="0" color="1,1,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO1870" type="strong" route="main_in_main_out" depart="4725.000000" departSpeed="0" color="1,0,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO1871" type="weak" route="main_in_main_out" depart="4730.000000" departSpeed="0" color="1,1,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO1872" type="weak" route="main_in_main_out" depart="4735.000000" departSpeed="0" color="1,1,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO1873" type="weak" route="main_in_main_out" depart="4740.000000" departSpeed="0" color="1,1,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO1874" type="strong" route="main_in_main_out" depart="4745.000000" departSpeed="0" color="1,0,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO1875" type="weak" route="main_in_main_out" depart="4750.000000" departSpeed="0" color="1,1,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO1876" type="weak" route="main_in_main_out" depart="4755.000000" departSpeed="0" color="1,1,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO1877" type="weak" route="main_in_main_out" depart="4760.000000" departSpeed="0" color="1,1,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO1878" type="weak" route="main_in_main_out" depart="4765.000000" departSpeed="0" color="1,1,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO1879" type="strong" route="main_in_main_out" depart="4770.000000" departSpeed="0" color="1,0,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO1880" type="strong" route="main_in_main_out" depart="4775.000000" departSpeed="0" color="1,0,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO1881" type="strong" route="main_in_main_out" depart="4780.000000" departSpeed="0" color="1,0,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO1882" type="weak" route="main_in_main_out" depart="4785.000000" departSpeed="0" color="1,1,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO1883" type="strong" route="main_in_main_out" depart="4790.000000" departSpeed="0" color="1,0,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO1884" type="weak" route="main_in_main_out" depart="4795.000000" departSpeed="0" color="1,1,0" departLane="0" tau = "2"/>
+<vehicle id="mali1885" type="malicious" route="main_in_main_out" depart="4800.000000" departSpeed="0" color="204, 153, 255" departLane="1" tau = "2"/>
+<vehicle id="MIMO1891" type="strong" route="main_in_main_out" depart="4805.000000" departSpeed="0" color="1,0,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO1892" type="weak" route="main_in_main_out" depart="4810.000000" departSpeed="0" color="1,1,0" departLane="1" tau = "2"/>
+<vehicle id="mali1893" type="malicious" route="main_in_main_out" depart="4815.000000" departSpeed="0" color="204, 153, 255" departLane="0" tau = "2"/>
+<vehicle id="MIMO1899" type="strong" route="main_in_main_out" depart="4820.000000" departSpeed="0" color="1,0,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO1900" type="weak" route="main_in_main_out" depart="4825.000000" departSpeed="0" color="1,1,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO1901" type="strong" route="main_in_main_out" depart="4830.000000" departSpeed="0" color="1,0,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO1902" type="strong" route="main_in_main_out" depart="4835.000000" departSpeed="0" color="1,0,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO1903" type="weak" route="main_in_main_out" depart="4840.000000" departSpeed="0" color="1,1,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO1904" type="strong" route="main_in_main_out" depart="4845.000000" departSpeed="0" color="1,0,0" departLane="1" tau = "2"/>
+<vehicle id="mali1905" type="malicious" route="main_in_main_out" depart="4850.000000" departSpeed="0" color="204, 153, 255" departLane="1" tau = "2"/>
+<vehicle id="mali1911" type="malicious" route="main_in_main_out" depart="4855.000000" departSpeed="0" color="204, 153, 255" departLane="1" tau = "2"/>
+<vehicle id="MIMO1917" type="strong" route="main_in_main_out" depart="4860.000000" departSpeed="0" color="1,0,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO1918" type="weak" route="main_in_main_out" depart="4865.000000" departSpeed="0" color="1,1,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO1919" type="weak" route="main_in_main_out" depart="4870.000000" departSpeed="0" color="1,1,0" departLane="0" tau = "2"/>
+<vehicle id="mali1920" type="malicious" route="main_in_main_out" depart="4875.000000" departSpeed="0" color="204, 153, 255" departLane="0" tau = "2"/>
+<vehicle id="MIMO1926" type="strong" route="main_in_main_out" depart="4880.000000" departSpeed="0" color="1,0,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO1927" type="strong" route="main_in_main_out" depart="4885.000000" departSpeed="0" color="1,0,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO1928" type="weak" route="main_in_main_out" depart="4890.000000" departSpeed="0" color="1,1,0" departLane="1" tau = "2"/>
+<vehicle id="mali1929" type="malicious" route="main_in_main_out" depart="4895.000000" departSpeed="0" color="204, 153, 255" departLane="1" tau = "2"/>
+<vehicle id="MIMO1935" type="strong" route="main_in_main_out" depart="4900.000000" departSpeed="0" color="1,0,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO1936" type="strong" route="main_in_main_out" depart="4905.000000" departSpeed="0" color="1,0,0" departLane="0" tau = "2"/>
+<vehicle id="mali1937" type="malicious" route="main_in_main_out" depart="4910.000000" departSpeed="0" color="204, 153, 255" departLane="1" tau = "2"/>
+<vehicle id="mali1943" type="malicious" route="main_in_main_out" depart="4915.000000" departSpeed="0" color="204, 153, 255" departLane="1" tau = "2"/>
+<vehicle id="MIMO1949" type="weak" route="main_in_main_out" depart="4920.000000" departSpeed="0" color="1,1,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO1950" type="strong" route="main_in_main_out" depart="4925.000000" departSpeed="0" color="1,0,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO1951" type="weak" route="main_in_main_out" depart="4930.000000" departSpeed="0" color="1,1,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO1952" type="strong" route="main_in_main_out" depart="4935.000000" departSpeed="0" color="1,0,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO1953" type="weak" route="main_in_main_out" depart="4940.000000" departSpeed="0" color="1,1,0" departLane="0" tau = "2"/>
+<vehicle id="mali1954" type="malicious" route="main_in_main_out" depart="4945.000000" departSpeed="0" color="204, 153, 255" departLane="0" tau = "2"/>
+<vehicle id="mali1960" type="malicious" route="main_in_main_out" depart="4950.000000" departSpeed="0" color="204, 153, 255" departLane="1" tau = "2"/>
+<vehicle id="MIMO1966" type="strong" route="main_in_main_out" depart="4955.000000" departSpeed="0" color="1,0,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO1967" type="strong" route="main_in_main_out" depart="4960.000000" departSpeed="0" color="1,0,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO1968" type="weak" route="main_in_main_out" depart="4965.000000" departSpeed="0" color="1,1,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO1969" type="weak" route="main_in_main_out" depart="4970.000000" departSpeed="0" color="1,1,0" departLane="0" tau = "2"/>
+<vehicle id="mali1970" type="malicious" route="main_in_main_out" depart="4975.000000" departSpeed="0" color="204, 153, 255" departLane="1" tau = "2"/>
+<vehicle id="MIMO1976" type="strong" route="main_in_main_out" depart="4980.000000" departSpeed="0" color="1,0,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO1977" type="strong" route="main_in_main_out" depart="4985.000000" departSpeed="0" color="1,0,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO1978" type="weak" route="main_in_main_out" depart="4990.000000" departSpeed="0" color="1,1,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO1979" type="weak" route="main_in_main_out" depart="4995.000000" departSpeed="0" color="1,1,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO1980" type="strong" route="main_in_main_out" depart="5000.000000" departSpeed="0" color="1,0,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO1981" type="weak" route="main_in_main_out" depart="5005.000000" departSpeed="0" color="1,1,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO1982" type="strong" route="main_in_main_out" depart="5010.000000" departSpeed="0" color="1,0,0" departLane="0" tau = "2"/>
+<vehicle id="mali1983" type="malicious" route="main_in_main_out" depart="5015.000000" departSpeed="0" color="204, 153, 255" departLane="1" tau = "2"/>
+<vehicle id="MIMO1989" type="weak" route="main_in_main_out" depart="5020.000000" departSpeed="0" color="1,1,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO1990" type="weak" route="main_in_main_out" depart="5025.000000" departSpeed="0" color="1,1,0" departLane="1" tau = "2"/>
+<vehicle id="mali1991" type="malicious" route="main_in_main_out" depart="5030.000000" departSpeed="0" color="204, 153, 255" departLane="1" tau = "2"/>
+<vehicle id="MIMO1997" type="strong" route="main_in_main_out" depart="5035.000000" departSpeed="0" color="1,0,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO1998" type="weak" route="main_in_main_out" depart="5040.000000" departSpeed="0" color="1,1,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO1999" type="weak" route="main_in_main_out" depart="5045.000000" departSpeed="0" color="1,1,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO2000" type="strong" route="main_in_main_out" depart="5050.000000" departSpeed="0" color="1,0,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO2001" type="weak" route="main_in_main_out" depart="5055.000000" departSpeed="0" color="1,1,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO2002" type="weak" route="main_in_main_out" depart="5060.000000" departSpeed="0" color="1,1,0" departLane="1" tau = "2"/>
+<vehicle id="mali2003" type="malicious" route="main_in_main_out" depart="5065.000000" departSpeed="0" color="204, 153, 255" departLane="1" tau = "2"/>
+<vehicle id="MIMO2009" type="strong" route="main_in_main_out" depart="5070.000000" departSpeed="0" color="1,0,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO2010" type="weak" route="main_in_main_out" depart="5075.000000" departSpeed="0" color="1,1,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO2011" type="weak" route="main_in_main_out" depart="5080.000000" departSpeed="0" color="1,1,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO2012" type="strong" route="main_in_main_out" depart="5085.000000" departSpeed="0" color="1,0,0" departLane="0" tau = "2"/>
+<vehicle id="mali2013" type="malicious" route="main_in_main_out" depart="5090.000000" departSpeed="0" color="204, 153, 255" departLane="1" tau = "2"/>
+<vehicle id="MIMO2019" type="weak" route="main_in_main_out" depart="5095.000000" departSpeed="0" color="1,1,0" departLane="0" tau = "2"/>
+<vehicle id="mali2020" type="malicious" route="main_in_main_out" depart="5100.000000" departSpeed="0" color="204, 153, 255" departLane="0" tau = "2"/>
+<vehicle id="MIMO2026" type="weak" route="main_in_main_out" depart="5105.000000" departSpeed="0" color="1,1,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO2027" type="weak" route="main_in_main_out" depart="5110.000000" departSpeed="0" color="1,1,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO2028" type="weak" route="main_in_main_out" depart="5115.000000" departSpeed="0" color="1,1,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO2029" type="weak" route="main_in_main_out" depart="5120.000000" departSpeed="0" color="1,1,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO2030" type="strong" route="main_in_main_out" depart="5125.000000" departSpeed="0" color="1,0,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO2031" type="weak" route="main_in_main_out" depart="5130.000000" departSpeed="0" color="1,1,0" departLane="0" tau = "2"/>
+<vehicle id="mali2032" type="malicious" route="main_in_main_out" depart="5135.000000" departSpeed="0" color="204, 153, 255" departLane="0" tau = "2"/>
+<vehicle id="mali2038" type="malicious" route="main_in_main_out" depart="5140.000000" departSpeed="0" color="204, 153, 255" departLane="1" tau = "2"/>
+<vehicle id="MIMO2044" type="strong" route="main_in_main_out" depart="5145.000000" departSpeed="0" color="1,0,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO2045" type="weak" route="main_in_main_out" depart="5150.000000" departSpeed="0" color="1,1,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO2046" type="weak" route="main_in_main_out" depart="5155.000000" departSpeed="0" color="1,1,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO2047" type="strong" route="main_in_main_out" depart="5160.000000" departSpeed="0" color="1,0,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO2048" type="weak" route="main_in_main_out" depart="5165.000000" departSpeed="0" color="1,1,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO2049" type="weak" route="main_in_main_out" depart="5170.000000" departSpeed="0" color="1,1,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO2050" type="weak" route="main_in_main_out" depart="5175.000000" departSpeed="0" color="1,1,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO2051" type="weak" route="main_in_main_out" depart="5180.000000" departSpeed="0" color="1,1,0" departLane="1" tau = "2"/>
+<vehicle id="mali2052" type="malicious" route="main_in_main_out" depart="5185.000000" departSpeed="0" color="204, 153, 255" departLane="0" tau = "2"/>
+<vehicle id="MIMO2058" type="weak" route="main_in_main_out" depart="5190.000000" departSpeed="0" color="1,1,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO2059" type="strong" route="main_in_main_out" depart="5195.000000" departSpeed="0" color="1,0,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO2060" type="strong" route="main_in_main_out" depart="5200.000000" departSpeed="0" color="1,0,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO2061" type="strong" route="main_in_main_out" depart="5205.000000" departSpeed="0" color="1,0,0" departLane="0" tau = "2"/>
+<vehicle id="mali2062" type="malicious" route="main_in_main_out" depart="5210.000000" departSpeed="0" color="204, 153, 255" departLane="0" tau = "2"/>
+<vehicle id="mali2068" type="malicious" route="main_in_main_out" depart="5215.000000" departSpeed="0" color="204, 153, 255" departLane="0" tau = "2"/>
+<vehicle id="MIMO2074" type="weak" route="main_in_main_out" depart="5220.000000" departSpeed="0" color="1,1,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO2075" type="weak" route="main_in_main_out" depart="5225.000000" departSpeed="0" color="1,1,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO2076" type="strong" route="main_in_main_out" depart="5230.000000" departSpeed="0" color="1,0,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO2077" type="weak" route="main_in_main_out" depart="5235.000000" departSpeed="0" color="1,1,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO2078" type="weak" route="main_in_main_out" depart="5240.000000" departSpeed="0" color="1,1,0" departLane="0" tau = "2"/>
+<vehicle id="mali2079" type="malicious" route="main_in_main_out" depart="5245.000000" departSpeed="0" color="204, 153, 255" departLane="0" tau = "2"/>
+<vehicle id="MIMO2085" type="weak" route="main_in_main_out" depart="5250.000000" departSpeed="0" color="1,1,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO2086" type="strong" route="main_in_main_out" depart="5255.000000" departSpeed="0" color="1,0,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO2087" type="strong" route="main_in_main_out" depart="5260.000000" departSpeed="0" color="1,0,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO2088" type="strong" route="main_in_main_out" depart="5265.000000" departSpeed="0" color="1,0,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO2089" type="strong" route="main_in_main_out" depart="5270.000000" departSpeed="0" color="1,0,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO2090" type="weak" route="main_in_main_out" depart="5275.000000" departSpeed="0" color="1,1,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO2091" type="strong" route="main_in_main_out" depart="5280.000000" departSpeed="0" color="1,0,0" departLane="0" tau = "2"/>
+<vehicle id="mali2092" type="malicious" route="main_in_main_out" depart="5285.000000" departSpeed="0" color="204, 153, 255" departLane="0" tau = "2"/>
+<vehicle id="mali2098" type="malicious" route="main_in_main_out" depart="5290.000000" departSpeed="0" color="204, 153, 255" departLane="0" tau = "2"/>
+<vehicle id="MIMO2104" type="weak" route="main_in_main_out" depart="5295.000000" departSpeed="0" color="1,1,0" departLane="0" tau = "2"/>
+<vehicle id="mali2105" type="malicious" route="main_in_main_out" depart="5300.000000" departSpeed="0" color="204, 153, 255" departLane="1" tau = "2"/>
+<vehicle id="MIMO2111" type="strong" route="main_in_main_out" depart="5305.000000" departSpeed="0" color="1,0,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO2112" type="weak" route="main_in_main_out" depart="5310.000000" departSpeed="0" color="1,1,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO2113" type="strong" route="main_in_main_out" depart="5315.000000" departSpeed="0" color="1,0,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO2114" type="weak" route="main_in_main_out" depart="5320.000000" departSpeed="0" color="1,1,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO2115" type="weak" route="main_in_main_out" depart="5325.000000" departSpeed="0" color="1,1,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO2116" type="weak" route="main_in_main_out" depart="5330.000000" departSpeed="0" color="1,1,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO2117" type="strong" route="main_in_main_out" depart="5335.000000" departSpeed="0" color="1,0,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO2118" type="strong" route="main_in_main_out" depart="5340.000000" departSpeed="0" color="1,0,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO2119" type="strong" route="main_in_main_out" depart="5345.000000" departSpeed="0" color="1,0,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO2120" type="strong" route="main_in_main_out" depart="5350.000000" departSpeed="0" color="1,0,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO2121" type="strong" route="main_in_main_out" depart="5355.000000" departSpeed="0" color="1,0,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO2122" type="strong" route="main_in_main_out" depart="5360.000000" departSpeed="0" color="1,0,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO2123" type="weak" route="main_in_main_out" depart="5365.000000" departSpeed="0" color="1,1,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO2124" type="strong" route="main_in_main_out" depart="5370.000000" departSpeed="0" color="1,0,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO2125" type="strong" route="main_in_main_out" depart="5375.000000" departSpeed="0" color="1,0,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO2126" type="weak" route="main_in_main_out" depart="5380.000000" departSpeed="0" color="1,1,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO2127" type="strong" route="main_in_main_out" depart="5385.000000" departSpeed="0" color="1,0,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO2128" type="weak" route="main_in_main_out" depart="5390.000000" departSpeed="0" color="1,1,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO2129" type="weak" route="main_in_main_out" depart="5395.000000" departSpeed="0" color="1,1,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO2130" type="weak" route="main_in_main_out" depart="5400.000000" departSpeed="0" color="1,1,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO2131" type="weak" route="main_in_main_out" depart="5405.000000" departSpeed="0" color="1,1,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO2132" type="weak" route="main_in_main_out" depart="5410.000000" departSpeed="0" color="1,1,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO2133" type="weak" route="main_in_main_out" depart="5415.000000" departSpeed="0" color="1,1,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO2134" type="weak" route="main_in_main_out" depart="5420.000000" departSpeed="0" color="1,1,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO2135" type="weak" route="main_in_main_out" depart="5425.000000" departSpeed="0" color="1,1,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO2136" type="strong" route="main_in_main_out" depart="5430.000000" departSpeed="0" color="1,0,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO2137" type="weak" route="main_in_main_out" depart="5435.000000" departSpeed="0" color="1,1,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO2138" type="weak" route="main_in_main_out" depart="5440.000000" departSpeed="0" color="1,1,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO2139" type="weak" route="main_in_main_out" depart="5445.000000" departSpeed="0" color="1,1,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO2140" type="weak" route="main_in_main_out" depart="5450.000000" departSpeed="0" color="1,1,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO2141" type="strong" route="main_in_main_out" depart="5455.000000" departSpeed="0" color="1,0,0" departLane="1" tau = "2"/>
+<vehicle id="mali2142" type="malicious" route="main_in_main_out" depart="5460.000000" departSpeed="0" color="204, 153, 255" departLane="1" tau = "2"/>
+<vehicle id="mali2148" type="malicious" route="main_in_main_out" depart="5465.000000" departSpeed="0" color="204, 153, 255" departLane="0" tau = "2"/>
+<vehicle id="MIMO2154" type="strong" route="main_in_main_out" depart="5470.000000" departSpeed="0" color="1,0,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO2155" type="strong" route="main_in_main_out" depart="5475.000000" departSpeed="0" color="1,0,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO2156" type="weak" route="main_in_main_out" depart="5480.000000" departSpeed="0" color="1,1,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO2157" type="weak" route="main_in_main_out" depart="5485.000000" departSpeed="0" color="1,1,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO2158" type="weak" route="main_in_main_out" depart="5490.000000" departSpeed="0" color="1,1,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO2159" type="weak" route="main_in_main_out" depart="5495.000000" departSpeed="0" color="1,1,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO2160" type="weak" route="main_in_main_out" depart="5500.000000" departSpeed="0" color="1,1,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO2161" type="weak" route="main_in_main_out" depart="5505.000000" departSpeed="0" color="1,1,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO2162" type="weak" route="main_in_main_out" depart="5510.000000" departSpeed="0" color="1,1,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO2163" type="weak" route="main_in_main_out" depart="5515.000000" departSpeed="0" color="1,1,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO2164" type="weak" route="main_in_main_out" depart="5520.000000" departSpeed="0" color="1,1,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO2165" type="strong" route="main_in_main_out" depart="5525.000000" departSpeed="0" color="1,0,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO2166" type="weak" route="main_in_main_out" depart="5530.000000" departSpeed="0" color="1,1,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO2167" type="weak" route="main_in_main_out" depart="5535.000000" departSpeed="0" color="1,1,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO2168" type="weak" route="main_in_main_out" depart="5540.000000" departSpeed="0" color="1,1,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO2169" type="weak" route="main_in_main_out" depart="5545.000000" departSpeed="0" color="1,1,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO2170" type="weak" route="main_in_main_out" depart="5550.000000" departSpeed="0" color="1,1,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO2171" type="weak" route="main_in_main_out" depart="5555.000000" departSpeed="0" color="1,1,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO2172" type="weak" route="main_in_main_out" depart="5560.000000" departSpeed="0" color="1,1,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO2173" type="weak" route="main_in_main_out" depart="5565.000000" departSpeed="0" color="1,1,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO2174" type="weak" route="main_in_main_out" depart="5570.000000" departSpeed="0" color="1,1,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO2175" type="strong" route="main_in_main_out" depart="5575.000000" departSpeed="0" color="1,0,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO2176" type="weak" route="main_in_main_out" depart="5580.000000" departSpeed="0" color="1,1,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO2177" type="weak" route="main_in_main_out" depart="5585.000000" departSpeed="0" color="1,1,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO2178" type="weak" route="main_in_main_out" depart="5590.000000" departSpeed="0" color="1,1,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO2179" type="weak" route="main_in_main_out" depart="5595.000000" departSpeed="0" color="1,1,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO2180" type="weak" route="main_in_main_out" depart="5600.000000" departSpeed="0" color="1,1,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO2181" type="weak" route="main_in_main_out" depart="5605.000000" departSpeed="0" color="1,1,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO2182" type="weak" route="main_in_main_out" depart="5610.000000" departSpeed="0" color="1,1,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO2183" type="weak" route="main_in_main_out" depart="5615.000000" departSpeed="0" color="1,1,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO2184" type="weak" route="main_in_main_out" depart="5620.000000" departSpeed="0" color="1,1,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO2185" type="weak" route="main_in_main_out" depart="5625.000000" departSpeed="0" color="1,1,0" departLane="1" tau = "2"/>
+<vehicle id="mali2186" type="malicious" route="main_in_main_out" depart="5630.000000" departSpeed="0" color="204, 153, 255" departLane="0" tau = "2"/>
+<vehicle id="MIMO2192" type="weak" route="main_in_main_out" depart="5635.000000" departSpeed="0" color="1,1,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO2193" type="strong" route="main_in_main_out" depart="5640.000000" departSpeed="0" color="1,0,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO2194" type="weak" route="main_in_main_out" depart="5645.000000" departSpeed="0" color="1,1,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO2195" type="strong" route="main_in_main_out" depart="5650.000000" departSpeed="0" color="1,0,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO2196" type="weak" route="main_in_main_out" depart="5655.000000" departSpeed="0" color="1,1,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO2197" type="weak" route="main_in_main_out" depart="5660.000000" departSpeed="0" color="1,1,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO2198" type="weak" route="main_in_main_out" depart="5665.000000" departSpeed="0" color="1,1,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO2199" type="weak" route="main_in_main_out" depart="5670.000000" departSpeed="0" color="1,1,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO2200" type="weak" route="main_in_main_out" depart="5675.000000" departSpeed="0" color="1,1,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO2201" type="weak" route="main_in_main_out" depart="5680.000000" departSpeed="0" color="1,1,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO2202" type="strong" route="main_in_main_out" depart="5685.000000" departSpeed="0" color="1,0,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO2203" type="strong" route="main_in_main_out" depart="5690.000000" departSpeed="0" color="1,0,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO2204" type="weak" route="main_in_main_out" depart="5695.000000" departSpeed="0" color="1,1,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO2205" type="weak" route="main_in_main_out" depart="5700.000000" departSpeed="0" color="1,1,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO2206" type="weak" route="main_in_main_out" depart="5705.000000" departSpeed="0" color="1,1,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO2207" type="weak" route="main_in_main_out" depart="5710.000000" departSpeed="0" color="1,1,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO2208" type="weak" route="main_in_main_out" depart="5715.000000" departSpeed="0" color="1,1,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO2209" type="weak" route="main_in_main_out" depart="5720.000000" departSpeed="0" color="1,1,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO2210" type="weak" route="main_in_main_out" depart="5725.000000" departSpeed="0" color="1,1,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO2211" type="weak" route="main_in_main_out" depart="5730.000000" departSpeed="0" color="1,1,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO2212" type="strong" route="main_in_main_out" depart="5735.000000" departSpeed="0" color="1,0,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO2213" type="weak" route="main_in_main_out" depart="5740.000000" departSpeed="0" color="1,1,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO2214" type="weak" route="main_in_main_out" depart="5745.000000" departSpeed="0" color="1,1,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO2215" type="weak" route="main_in_main_out" depart="5750.000000" departSpeed="0" color="1,1,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO2216" type="weak" route="main_in_main_out" depart="5755.000000" departSpeed="0" color="1,1,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO2217" type="weak" route="main_in_main_out" depart="5760.000000" departSpeed="0" color="1,1,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO2218" type="weak" route="main_in_main_out" depart="5765.000000" departSpeed="0" color="1,1,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO2219" type="strong" route="main_in_main_out" depart="5770.000000" departSpeed="0" color="1,0,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO2220" type="weak" route="main_in_main_out" depart="5775.000000" departSpeed="0" color="1,1,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO2221" type="weak" route="main_in_main_out" depart="5780.000000" departSpeed="0" color="1,1,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO2222" type="weak" route="main_in_main_out" depart="5785.000000" departSpeed="0" color="1,1,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO2223" type="strong" route="main_in_main_out" depart="5790.000000" departSpeed="0" color="1,0,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO2224" type="weak" route="main_in_main_out" depart="5795.000000" departSpeed="0" color="1,1,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO2225" type="weak" route="main_in_main_out" depart="5800.000000" departSpeed="0" color="1,1,0" departLane="1" tau = "2"/>
+<vehicle id="mali2226" type="malicious" route="main_in_main_out" depart="5805.000000" departSpeed="0" color="204, 153, 255" departLane="0" tau = "2"/>
+<vehicle id="MIMO2232" type="weak" route="main_in_main_out" depart="5810.000000" departSpeed="0" color="1,1,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO2233" type="weak" route="main_in_main_out" depart="5815.000000" departSpeed="0" color="1,1,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO2234" type="weak" route="main_in_main_out" depart="5820.000000" departSpeed="0" color="1,1,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO2235" type="weak" route="main_in_main_out" depart="5825.000000" departSpeed="0" color="1,1,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO2236" type="weak" route="main_in_main_out" depart="5830.000000" departSpeed="0" color="1,1,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO2237" type="weak" route="main_in_main_out" depart="5835.000000" departSpeed="0" color="1,1,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO2238" type="strong" route="main_in_main_out" depart="5840.000000" departSpeed="0" color="1,0,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO2239" type="weak" route="main_in_main_out" depart="5845.000000" departSpeed="0" color="1,1,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO2240" type="weak" route="main_in_main_out" depart="5850.000000" departSpeed="0" color="1,1,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO2241" type="strong" route="main_in_main_out" depart="5855.000000" departSpeed="0" color="1,0,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO2242" type="strong" route="main_in_main_out" depart="5860.000000" departSpeed="0" color="1,0,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO2243" type="weak" route="main_in_main_out" depart="5865.000000" departSpeed="0" color="1,1,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO2244" type="weak" route="main_in_main_out" depart="5870.000000" departSpeed="0" color="1,1,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO2245" type="strong" route="main_in_main_out" depart="5875.000000" departSpeed="0" color="1,0,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO2246" type="weak" route="main_in_main_out" depart="5880.000000" departSpeed="0" color="1,1,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO2247" type="weak" route="main_in_main_out" depart="5885.000000" departSpeed="0" color="1,1,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO2248" type="strong" route="main_in_main_out" depart="5890.000000" departSpeed="0" color="1,0,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO2249" type="weak" route="main_in_main_out" depart="5895.000000" departSpeed="0" color="1,1,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO2250" type="weak" route="main_in_main_out" depart="5900.000000" departSpeed="0" color="1,1,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO2251" type="strong" route="main_in_main_out" depart="5905.000000" departSpeed="0" color="1,0,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO2252" type="weak" route="main_in_main_out" depart="5910.000000" departSpeed="0" color="1,1,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO2253" type="weak" route="main_in_main_out" depart="5915.000000" departSpeed="0" color="1,1,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO2254" type="weak" route="main_in_main_out" depart="5920.000000" departSpeed="0" color="1,1,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO2255" type="weak" route="main_in_main_out" depart="5925.000000" departSpeed="0" color="1,1,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO2256" type="weak" route="main_in_main_out" depart="5930.000000" departSpeed="0" color="1,1,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO2257" type="strong" route="main_in_main_out" depart="5935.000000" departSpeed="0" color="1,0,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO2258" type="weak" route="main_in_main_out" depart="5940.000000" departSpeed="0" color="1,1,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO2259" type="weak" route="main_in_main_out" depart="5945.000000" departSpeed="0" color="1,1,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO2260" type="weak" route="main_in_main_out" depart="5950.000000" departSpeed="0" color="1,1,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO2261" type="strong" route="main_in_main_out" depart="5955.000000" departSpeed="0" color="1,0,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO2262" type="weak" route="main_in_main_out" depart="5960.000000" departSpeed="0" color="1,1,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO2263" type="strong" route="main_in_main_out" depart="5965.000000" departSpeed="0" color="1,0,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO2264" type="weak" route="main_in_main_out" depart="5970.000000" departSpeed="0" color="1,1,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO2265" type="weak" route="main_in_main_out" depart="5975.000000" departSpeed="0" color="1,1,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO2266" type="weak" route="main_in_main_out" depart="5980.000000" departSpeed="0" color="1,1,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO2267" type="weak" route="main_in_main_out" depart="5985.000000" departSpeed="0" color="1,1,0" departLane="0" tau = "2"/>
+<vehicle id="MIMO2268" type="strong" route="main_in_main_out" depart="5990.000000" departSpeed="0" color="1,0,0" departLane="1" tau = "2"/>
+<vehicle id="MIMO2269" type="strong" route="main_in_main_out" depart="5995.000000" departSpeed="0" color="1,0,0" departLane="0" tau = "2"/>
+</routes>
